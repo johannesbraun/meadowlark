@@ -1,0 +1,19 @@
+{
+  "author": "Johannes Braun",
+  "name": "meadowlark",
+  "description": "travel site book example",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "meadowlark.js",
+  "dependencies": {
+    "express": "^4.10.6",
+    "express3-handlebars": "^0.5.2"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

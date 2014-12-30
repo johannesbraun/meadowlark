@@ -1,0 +1,2155 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', '--save', 'express' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/vagrant/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /home/vagrant/meadowlark/site/package.json
+verbose loadDefaults meadowlark@0.0.0
+verbose from cache /home/vagrant/meadowlark/site/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'express', null ]
+silly cache add: name, spec, args [ undefined, 'express', [ 'express', null ] ]
+verbose parsed url { pathname: 'express', path: 'express', href: 'express' }
+verbose addNamed [ 'express', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'express', '', false ]
+verbose raw, before any munging express
+verbose url resolving [ 'http://registry.npmjs.org/', './express' ]
+verbose url resolved http://registry.npmjs.org/express
+http GET http://registry.npmjs.org/express
+http 200 http://registry.npmjs.org/express
+silly get cb [ 200,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+silly get cb     etag: '"2N5F6QXDZ11EJ2E2MRJQQCDOS"',
+silly get cb     'content-type': 'application/json',
+silly get cb     'cache-control': 'max-age=60',
+silly get cb     'content-length': '444797',
+silly get cb     'accept-ranges': 'bytes',
+silly get cb     date: 'Tue, 30 Dec 2014 17:41:53 GMT',
+silly get cb     age: '17',
+silly get cb     'x-served-by': 'cache-ams4130-AMS',
+silly get cb     'x-cache': 'HIT, MISS from non_disclosed',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1419961313.936213,VS0,VE1',
+silly get cb     vary: 'Accept',
+silly get cb     'x-cache-lookup': 'MISS from non_disclosed:3128',
+silly get cb     via: '1.1 varnish, 1.1 non_disclosed:3128 (squid)',
+silly get cb     connection: 'keep-alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/express'
+verbose mkdir done: /home/vagrant/.npm/express 755
+silly name, range, hasData 2 [ 'express', '', true ]
+silly versions [ 'express',
+silly versions   [ '0.14.0',
+silly versions     '0.14.1',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '2.5.0',
+silly versions     '2.5.1',
+silly versions     '2.5.2',
+silly versions     '2.5.3',
+silly versions     '2.5.4',
+silly versions     '2.5.5',
+silly versions     '2.5.6',
+silly versions     '2.5.7',
+silly versions     '2.5.8',
+silly versions     '2.5.9',
+silly versions     '2.5.10',
+silly versions     '2.5.11',
+silly versions     '3.0.0',
+silly versions     '3.0.1',
+silly versions     '3.0.2',
+silly versions     '3.0.3',
+silly versions     '3.0.4',
+silly versions     '3.0.5',
+silly versions     '3.0.6',
+silly versions     '3.1.0',
+silly versions     '3.1.1',
+silly versions     '3.1.2',
+silly versions     '3.2.0',
+silly versions     '3.2.1',
+silly versions     '3.2.2',
+silly versions     '3.2.3',
+silly versions     '3.2.4',
+silly versions     '3.2.5',
+silly versions     '3.2.6',
+silly versions     '3.3.0',
+silly versions     '3.3.1',
+silly versions     '3.3.2',
+silly versions     '3.3.3',
+silly versions     '3.3.4',
+silly versions     '3.3.5',
+silly versions     '3.3.6',
+silly versions     '1.0.0-beta',
+silly versions     '1.0.0-beta2',
+silly versions     '1.0.0-rc',
+silly versions     '1.0.0-rc2',
+silly versions     '1.0.0-rc3',
+silly versions     '1.0.0-rc4',
+silly versions     '3.0.0-alpha1',
+silly versions     '3.0.0-alpha2',
+silly versions     '3.0.0-alpha3',
+silly versions     '3.0.0-alpha4',
+silly versions     '3.0.0-alpha5',
+silly versions     '3.0.0-beta1',
+silly versions     '3.0.0-beta2',
+silly versions     '3.0.0-beta3',
+silly versions     '3.0.0-beta4',
+silly versions     '3.0.0-beta6',
+silly versions     '3.0.0-beta7',
+silly versions     '3.0.0-rc1',
+silly versions     '3.0.0-rc2',
+silly versions     '3.0.0-rc3',
+silly versions     '3.0.0-rc4',
+silly versions     '3.0.0-rc5',
+silly versions     '3.3.7',
+silly versions     '3.3.8',
+silly versions     '3.4.0',
+silly versions     '3.4.1',
+silly versions     '3.4.2',
+silly versions     '3.4.3',
+silly versions     '3.4.4' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-23-generic-pae',
+verbose bin dist   { shasum: '0b63ae626c96b71b78d13dfce079c10351635a86',
+verbose bin dist     tarball: 'http://registry.npmjs.org/express/-/express-3.4.4.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/express/-/express-3.4.4.tgz',
+verbose addRemoteTarball   '0b63ae626c96b71b78d13dfce079c10351635a86' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961315147-0.3121710701379925'
+verbose mkdir done: /tmp/npm-1419961315147/1419961315147-0.3121710701379925 755
+verbose fetch to /tmp/npm-1419961315147/1419961315147-0.3121710701379925/tmp.tgz
+http GET http://registry.npmjs.org/express/-/express-3.4.4.tgz
+http 200 http://registry.npmjs.org/express/-/express-3.4.4.tgz
+silly updated sha bytes 36172
+info shasum 0b63ae626c96b71b78d13dfce079c10351635a86
+info shasum /tmp/npm-1419961315147/1419961315147-0.3121710701379925/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm'
+verbose mkdir done: /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1419961315147/1419961315147-0.3121710701379925/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/Readme.md
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/LICENSE
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/.travis.yml
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/Makefile
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/History.md
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/bin
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/bin/express
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/lib
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/lib/request.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/lib/view.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/lib/application.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/lib/response.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/lib/middleware.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/lib/express.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/lib/router
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/lib/router/index.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package/lib/router/route.js
+silly chmod package 755
+silly chmod bin 755
+silly chmod lib 755
+silly chmod router 755
+verbose gunzed /tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package
+verbose rm'ed /tmp/npm-1419961315147/1419961315147-0.3121710701379925/package
+verbose renamed [ '/tmp/npm-1419961315147/1419961315147-0.3121710701379925/___package.npm/package',
+verbose renamed   '/tmp/npm-1419961315147/1419961315147-0.3121710701379925/package' ]
+verbose caching /tmp/npm-1419961315147/1419961315147-0.3121710701379925/package/package.json
+verbose loadDefaults express@3.4.4
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+verbose from cache /tmp/npm-1419961315147/1419961315147-0.3121710701379925/package/package.json
+verbose pack /tmp/npm-1419961315147/1419961315147-0.3121710701379925/package
+verbose pack /tmp/npm-1419961315147/1419961315147-0.3121710701379925/package /home/vagrant/.npm/express/3.4.4/package.tgz
+silly makeList /tmp/npm-1419961315147/1419961315147-0.3121710701379925/package
+silly dir, dirLen [ '/tmp/npm-1419961315147/1419961315147-0.3121710701379925/package',
+silly dir, dirLen   64 ]
+verbose tarball /home/vagrant/.npm/express/3.4.4/package.tgz
+verbose parent /tmp/npm-1419961315147/1419961315147-0.3121710701379925/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/express/3.4.4/___package.npm'
+verbose mkdir done: /home/vagrant/.npm/express/3.4.4/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/.npm/express/3.4.4/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/.travis.yml
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/History.md
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/index.js
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/Makefile
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/LICENSE
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/Readme.md
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/bin
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/bin/express
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/lib
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/lib/application.js
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/lib/express.js
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/lib/middleware.js
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/lib/request.js
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/lib/response.js
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/lib/view.js
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/lib/router
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/lib/router/index.js
+silly asyncMap in gTP /home/vagrant/.npm/express/3.4.4/___package.npm/package/lib/router/route.js
+verbose gunzed /home/vagrant/.npm/express/3.4.4/___package.npm/package
+verbose rm'ed /home/vagrant/.npm/express/3.4.4/package
+verbose renamed [ '/home/vagrant/.npm/express/3.4.4/___package.npm/package',
+verbose renamed   '/home/vagrant/.npm/express/3.4.4/package' ]
+verbose caching /home/vagrant/.npm/express/3.4.4/package/package.json
+verbose loadDefaults express@3.4.4
+silly updated sha bytes 35865
+info shasum f506fffc069d704dbbba71e1e3f2f337a90de611
+info shasum /home/vagrant/.npm/express/3.4.4/package.tgz
+verbose from cache /home/vagrant/.npm/express/3.4.4/package/package.json
+verbose chmod /home/vagrant/.npm/express/3.4.4/package.tgz 644
+verbose chown [ '/home/vagrant/.npm/express/3.4.4/package.tgz', 1000, 1000 ]
+silly resolved [ { name: 'express',
+silly resolved     description: 'Sinatra inspired web development framework',
+silly resolved     version: '3.4.4',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved        { name: 'Aaron Heckmann',
+silly resolved          email: 'aaron.heckmann+github@gmail.com' },
+silly resolved        { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly resolved        { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly resolved     dependencies: 
+silly resolved      { connect: '2.11.0',
+silly resolved        commander: '1.3.2',
+silly resolved        'range-parser': '0.0.4',
+silly resolved        mkdirp: '0.3.5',
+silly resolved        cookie: '0.1.0',
+silly resolved        'buffer-crc32': '0.2.1',
+silly resolved        fresh: '0.2.0',
+silly resolved        methods: '0.1.0',
+silly resolved        send: '0.1.4',
+silly resolved        'cookie-signature': '1.0.1',
+silly resolved        debug: '*' },
+silly resolved     devDependencies: 
+silly resolved      { ejs: '*',
+silly resolved        mocha: '*',
+silly resolved        jade: '0.30.0',
+silly resolved        hjs: '*',
+silly resolved        stylus: '*',
+silly resolved        should: '2',
+silly resolved        'connect-redis': '*',
+silly resolved        marked: '*',
+silly resolved        supertest: '0.8.1 - 1' },
+silly resolved     keywords: 
+silly resolved      [ 'express',
+silly resolved        'framework',
+silly resolved        'sinatra',
+silly resolved        'web',
+silly resolved        'rest',
+silly resolved        'restful',
+silly resolved        'router',
+silly resolved        'app',
+silly resolved        'api' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/express.git' },
+silly resolved     main: 'index',
+silly resolved     bin: { express: './bin/express' },
+silly resolved     scripts: { prepublish: 'npm prune', test: 'make test' },
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'express@3.4.4',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'f506fffc069d704dbbba71e1e3f2f337a90de611' },
+silly resolved     _from: 'express' } ]
+info into /home/vagrant/meadowlark/site express@3.4.4
+info installOne express@3.4.4
+verbose from cache /home/vagrant/.npm/express/3.4.4/package/package.json
+info unbuild /home/vagrant/meadowlark/site/node_modules/express
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/___express.npm'
+verbose mkdir done: /home/vagrant/meadowlark/site/node_modules/___express.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/meadowlark/site/node_modules/express
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/.npmignore
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/.travis.yml
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/History.md
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/index.js
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/LICENSE
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/Makefile
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/Readme.md
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/bin
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/bin/express
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/lib
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/lib/application.js
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/lib/express.js
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/lib/middleware.js
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/lib/request.js
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/lib/response.js
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/lib/utils.js
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/lib/view.js
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/lib/router
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/lib/router/index.js
+silly asyncMap in gTP /home/vagrant/meadowlark/site/node_modules/___express.npm/package/lib/router/route.js
+verbose gunzed /home/vagrant/meadowlark/site/node_modules/___express.npm/package
+verbose rm'ed /home/vagrant/meadowlark/site/node_modules/express
+verbose renamed [ '/home/vagrant/meadowlark/site/node_modules/___express.npm/package',
+verbose renamed   '/home/vagrant/meadowlark/site/node_modules/express' ]
+verbose caching /home/vagrant/meadowlark/site/node_modules/express/package.json
+verbose loadDefaults express@3.4.4
+info preinstall express@3.4.4
+verbose from cache /home/vagrant/meadowlark/site/node_modules/express/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/vagrant/meadowlark/site/node_modules/express/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'connect@2.11.0', null ]
+silly cache add: name, spec, args [ undefined, 'connect@2.11.0', [ 'connect@2.11.0', null ] ]
+verbose parsed url { pathname: 'connect@2.11.0',
+verbose parsed url   path: 'connect@2.11.0',
+verbose parsed url   href: 'connect@2.11.0' }
+silly cache add: name, spec, args [ 'connect', '2.11.0', [ 'connect', '2.11.0' ] ]
+verbose parsed url { pathname: '2.11.0', path: '2.11.0', href: '2.11.0' }
+verbose addNamed [ 'connect', '2.11.0' ]
+verbose addNamed [ '2.11.0', '2.11.0' ]
+verbose cache add [ 'commander@1.3.2', null ]
+silly cache add: name, spec, args [ undefined, 'commander@1.3.2', [ 'commander@1.3.2', null ] ]
+verbose parsed url { pathname: 'commander@1.3.2',
+verbose parsed url   path: 'commander@1.3.2',
+verbose parsed url   href: 'commander@1.3.2' }
+silly cache add: name, spec, args [ 'commander', '1.3.2', [ 'commander', '1.3.2' ] ]
+verbose parsed url { pathname: '1.3.2', path: '1.3.2', href: '1.3.2' }
+verbose addNamed [ 'commander', '1.3.2' ]
+verbose addNamed [ '1.3.2', '1.3.2' ]
+verbose raw, before any munging connect/2.11.0
+verbose url resolving [ 'http://registry.npmjs.org/', './connect/2.11.0' ]
+verbose url resolved http://registry.npmjs.org/connect/2.11.0
+http GET http://registry.npmjs.org/connect/2.11.0
+verbose raw, before any munging commander/1.3.2
+verbose url resolving [ 'http://registry.npmjs.org/', './commander/1.3.2' ]
+verbose url resolved http://registry.npmjs.org/commander/1.3.2
+http GET http://registry.npmjs.org/commander/1.3.2
+verbose cache add [ 'range-parser@0.0.4', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'range-parser@0.0.4',
+silly cache add: name, spec, args   [ 'range-parser@0.0.4', null ] ]
+verbose parsed url { pathname: 'range-parser@0.0.4',
+verbose parsed url   path: 'range-parser@0.0.4',
+verbose parsed url   href: 'range-parser@0.0.4' }
+silly cache add: name, spec, args [ 'range-parser', '0.0.4', [ 'range-parser', '0.0.4' ] ]
+verbose parsed url { pathname: '0.0.4', path: '0.0.4', href: '0.0.4' }
+verbose addNamed [ 'range-parser', '0.0.4' ]
+verbose addNamed [ '0.0.4', '0.0.4' ]
+verbose cache add [ 'mkdirp@0.3.5', null ]
+silly cache add: name, spec, args [ undefined, 'mkdirp@0.3.5', [ 'mkdirp@0.3.5', null ] ]
+verbose parsed url { pathname: 'mkdirp@0.3.5',
+verbose parsed url   path: 'mkdirp@0.3.5',
+verbose parsed url   href: 'mkdirp@0.3.5' }
+silly cache add: name, spec, args [ 'mkdirp', '0.3.5', [ 'mkdirp', '0.3.5' ] ]
+verbose parsed url { pathname: '0.3.5', path: '0.3.5', href: '0.3.5' }
+verbose addNamed [ 'mkdirp', '0.3.5' ]
+verbose addNamed [ '0.3.5', '0.3.5' ]
+verbose cache add [ 'cookie@0.1.0', null ]
+silly cache add: name, spec, args [ undefined, 'cookie@0.1.0', [ 'cookie@0.1.0', null ] ]
+verbose parsed url { pathname: 'cookie@0.1.0',
+verbose parsed url   path: 'cookie@0.1.0',
+verbose parsed url   href: 'cookie@0.1.0' }
+silly cache add: name, spec, args [ 'cookie', '0.1.0', [ 'cookie', '0.1.0' ] ]
+verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+verbose addNamed [ 'cookie', '0.1.0' ]
+verbose addNamed [ '0.1.0', '0.1.0' ]
+verbose cache add [ 'buffer-crc32@0.2.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'buffer-crc32@0.2.1',
+silly cache add: name, spec, args   [ 'buffer-crc32@0.2.1', null ] ]
+verbose parsed url { pathname: 'buffer-crc32@0.2.1',
+verbose parsed url   path: 'buffer-crc32@0.2.1',
+verbose parsed url   href: 'buffer-crc32@0.2.1' }
+silly cache add: name, spec, args [ 'buffer-crc32', '0.2.1', [ 'buffer-crc32', '0.2.1' ] ]
+verbose parsed url { pathname: '0.2.1', path: '0.2.1', href: '0.2.1' }
+verbose addNamed [ 'buffer-crc32', '0.2.1' ]
+verbose addNamed [ '0.2.1', '0.2.1' ]
+verbose cache add [ 'fresh@0.2.0', null ]
+silly cache add: name, spec, args [ undefined, 'fresh@0.2.0', [ 'fresh@0.2.0', null ] ]
+verbose parsed url { pathname: 'fresh@0.2.0',
+verbose parsed url   path: 'fresh@0.2.0',
+verbose parsed url   href: 'fresh@0.2.0' }
+silly cache add: name, spec, args [ 'fresh', '0.2.0', [ 'fresh', '0.2.0' ] ]
+verbose parsed url { pathname: '0.2.0', path: '0.2.0', href: '0.2.0' }
+verbose addNamed [ 'fresh', '0.2.0' ]
+verbose addNamed [ '0.2.0', '0.2.0' ]
+verbose raw, before any munging range-parser/0.0.4
+verbose url resolving [ 'http://registry.npmjs.org/', './range-parser/0.0.4' ]
+verbose url resolved http://registry.npmjs.org/range-parser/0.0.4
+http GET http://registry.npmjs.org/range-parser/0.0.4
+verbose raw, before any munging mkdirp/0.3.5
+verbose url resolving [ 'http://registry.npmjs.org/', './mkdirp/0.3.5' ]
+verbose url resolved http://registry.npmjs.org/mkdirp/0.3.5
+http GET http://registry.npmjs.org/mkdirp/0.3.5
+verbose raw, before any munging cookie/0.1.0
+verbose url resolving [ 'http://registry.npmjs.org/', './cookie/0.1.0' ]
+verbose url resolved http://registry.npmjs.org/cookie/0.1.0
+http GET http://registry.npmjs.org/cookie/0.1.0
+verbose raw, before any munging buffer-crc32/0.2.1
+verbose url resolving [ 'http://registry.npmjs.org/', './buffer-crc32/0.2.1' ]
+verbose url resolved http://registry.npmjs.org/buffer-crc32/0.2.1
+http GET http://registry.npmjs.org/buffer-crc32/0.2.1
+verbose raw, before any munging fresh/0.2.0
+verbose url resolving [ 'http://registry.npmjs.org/', './fresh/0.2.0' ]
+verbose url resolved http://registry.npmjs.org/fresh/0.2.0
+http GET http://registry.npmjs.org/fresh/0.2.0
+verbose cache add [ 'methods@0.1.0', null ]
+silly cache add: name, spec, args [ undefined, 'methods@0.1.0', [ 'methods@0.1.0', null ] ]
+verbose parsed url { pathname: 'methods@0.1.0',
+verbose parsed url   path: 'methods@0.1.0',
+verbose parsed url   href: 'methods@0.1.0' }
+silly cache add: name, spec, args [ 'methods', '0.1.0', [ 'methods', '0.1.0' ] ]
+verbose parsed url { pathname: '0.1.0', path: '0.1.0', href: '0.1.0' }
+verbose addNamed [ 'methods', '0.1.0' ]
+verbose addNamed [ '0.1.0', '0.1.0' ]
+verbose cache add [ 'send@0.1.4', null ]
+silly cache add: name, spec, args [ undefined, 'send@0.1.4', [ 'send@0.1.4', null ] ]
+verbose parsed url { pathname: 'send@0.1.4',
+verbose parsed url   path: 'send@0.1.4',
+verbose parsed url   href: 'send@0.1.4' }
+silly cache add: name, spec, args [ 'send', '0.1.4', [ 'send', '0.1.4' ] ]
+verbose parsed url { pathname: '0.1.4', path: '0.1.4', href: '0.1.4' }
+verbose addNamed [ 'send', '0.1.4' ]
+verbose addNamed [ '0.1.4', '0.1.4' ]
+verbose cache add [ 'cookie-signature@1.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'cookie-signature@1.0.1',
+silly cache add: name, spec, args   [ 'cookie-signature@1.0.1', null ] ]
+verbose parsed url { pathname: 'cookie-signature@1.0.1',
+verbose parsed url   path: 'cookie-signature@1.0.1',
+verbose parsed url   href: 'cookie-signature@1.0.1' }
+silly cache add: name, spec, args [ 'cookie-signature', '1.0.1', [ 'cookie-signature', '1.0.1' ] ]
+verbose parsed url { pathname: '1.0.1', path: '1.0.1', href: '1.0.1' }
+verbose addNamed [ 'cookie-signature', '1.0.1' ]
+verbose addNamed [ '1.0.1', '1.0.1' ]
+verbose cache add [ 'debug@*', null ]
+silly cache add: name, spec, args [ undefined, 'debug@*', [ 'debug@*', null ] ]
+verbose parsed url { pathname: 'debug@*', path: 'debug@*', href: 'debug@*' }
+silly cache add: name, spec, args [ 'debug', '*', [ 'debug', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'debug', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'debug', '', false ]
+verbose raw, before any munging methods/0.1.0
+verbose url resolving [ 'http://registry.npmjs.org/', './methods/0.1.0' ]
+verbose url resolved http://registry.npmjs.org/methods/0.1.0
+http GET http://registry.npmjs.org/methods/0.1.0
+verbose raw, before any munging send/0.1.4
+verbose url resolving [ 'http://registry.npmjs.org/', './send/0.1.4' ]
+verbose url resolved http://registry.npmjs.org/send/0.1.4
+http GET http://registry.npmjs.org/send/0.1.4
+verbose raw, before any munging cookie-signature/1.0.1
+verbose url resolving [ 'http://registry.npmjs.org/', './cookie-signature/1.0.1' ]
+verbose url resolved http://registry.npmjs.org/cookie-signature/1.0.1
+http GET http://registry.npmjs.org/cookie-signature/1.0.1
+verbose raw, before any munging debug
+verbose url resolving [ 'http://registry.npmjs.org/', './debug' ]
+verbose url resolved http://registry.npmjs.org/debug
+http GET http://registry.npmjs.org/debug
+http 200 http://registry.npmjs.org/commander/1.3.2
+silly get cb [ 200,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"EV1IIH2SLB19T523UYVH9E07X"',
+silly get cb     'content-type': 'application/json',
+silly get cb     'cache-control': 'max-age=60',
+silly get cb     'content-length': '878',
+silly get cb     'accept-ranges': 'bytes',
+silly get cb     date: 'Tue, 30 Dec 2014 17:41:56 GMT',
+silly get cb     age: '39',
+silly get cb     'x-served-by': 'cache-ams4143-AMS',
+silly get cb     'x-cache': 'HIT, MISS from non_disclosed',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1419961316.182313,VS0,VE0',
+silly get cb     vary: 'Accept',
+silly get cb     'x-cache-lookup': 'MISS from non_disclosed:3128',
+silly get cb     via: '1.1 varnish, 1.1 non_disclosed:3128 (squid)',
+silly get cb     connection: 'keep-alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/commander'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/commander/1.3.2'
+verbose mkdir done: /home/vagrant/.npm/commander/1.3.2 755
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-23-generic-pae',
+verbose bin dist   { shasum: '8a8f30ec670a6fdd64af52f1914b907d79ead5b5',
+verbose bin dist     tarball: 'http://registry.npmjs.org/commander/-/commander-1.3.2.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/commander/-/commander-1.3.2.tgz',
+verbose addRemoteTarball   '8a8f30ec670a6fdd64af52f1914b907d79ead5b5' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961316222-0.3124610169325024'
+verbose mkdir done: /tmp/npm-1419961315147/1419961316222-0.3124610169325024 755
+verbose fetch to /tmp/npm-1419961315147/1419961316222-0.3124610169325024/tmp.tgz
+http GET http://registry.npmjs.org/commander/-/commander-1.3.2.tgz
+http 200 http://registry.npmjs.org/range-parser/0.0.4
+silly get cb [ 200,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+silly get cb     etag: '"9KB8HAL85KKIEPQQ0EORNX5XP"',
+silly get cb     'content-type': 'application/json',
+silly get cb     'cache-control': 'max-age=60',
+silly get cb     'content-length': '728',
+silly get cb     'accept-ranges': 'bytes',
+silly get cb     date: 'Tue, 30 Dec 2014 17:41:56 GMT',
+silly get cb     age: '0',
+silly get cb     'x-served-by': 'cache-ams4124-AMS',
+silly get cb     'x-cache': 'HIT, MISS from non_disclosed',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1419961316.176714,VS0,VE373',
+silly get cb     vary: 'Accept',
+silly get cb     'x-cache-lookup': 'MISS from non_disclosed:3128',
+silly get cb     via: '1.1 varnish, 1.1 non_disclosed:3128 (squid)',
+silly get cb     connection: 'keep-alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/range-parser'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/range-parser/0.0.4'
+verbose mkdir done: /home/vagrant/.npm/range-parser/0.0.4 755
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-23-generic-pae',
+verbose bin dist   { shasum: 'c0427ffef51c10acba0782a46c9602e744ff620b',
+verbose bin dist     tarball: 'http://registry.npmjs.org/range-parser/-/range-parser-0.0.4.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/range-parser/-/range-parser-0.0.4.tgz',
+verbose addRemoteTarball   'c0427ffef51c10acba0782a46c9602e744ff620b' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961316649-0.47589320689439774'
+verbose mkdir done: /tmp/npm-1419961315147/1419961316649-0.47589320689439774 755
+verbose fetch to /tmp/npm-1419961315147/1419961316649-0.47589320689439774/tmp.tgz
+http GET http://registry.npmjs.org/range-parser/-/range-parser-0.0.4.tgz
+http 200 http://registry.npmjs.org/buffer-crc32/0.2.1
+silly get cb [ 200,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+silly get cb     etag: '"2T87K1WTXT2661V046O3263P"',
+silly get cb     'content-type': 'application/json',
+silly get cb     'cache-control': 'max-age=60',
+silly get cb     'content-length': '937',
+silly get cb     'accept-ranges': 'bytes',
+silly get cb     date: 'Tue, 30 Dec 2014 17:41:56 GMT',
+silly get cb     age: '0',
+silly get cb     'x-served-by': 'cache-ams4143-AMS',
+silly get cb     'x-cache': 'HIT, MISS from non_disclosed',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1419961316.263177,VS0,VE373',
+silly get cb     vary: 'Accept',
+silly get cb     'x-cache-lookup': 'MISS from non_disclosed:3128',
+silly get cb     via: '1.1 varnish, 1.1 non_disclosed:3128 (squid)',
+silly get cb     connection: 'keep-alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/buffer-crc32'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/buffer-crc32/0.2.1'
+verbose mkdir done: /home/vagrant/.npm/buffer-crc32/0.2.1 755
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-23-generic-pae',
+verbose bin dist   { shasum: 'be3e5382fc02b6d6324956ac1af98aa98b08534c',
+verbose bin dist     tarball: 'http://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.1.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.1.tgz',
+verbose addRemoteTarball   'be3e5382fc02b6d6324956ac1af98aa98b08534c' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961316664-0.5863154120743275'
+verbose mkdir done: /tmp/npm-1419961315147/1419961316664-0.5863154120743275 755
+verbose fetch to /tmp/npm-1419961315147/1419961316664-0.5863154120743275/tmp.tgz
+http GET http://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.1.tgz
+http 200 http://registry.npmjs.org/cookie/0.1.0
+silly get cb [ 200,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+silly get cb     etag: '"3H4OHDWZ7615P8KRS6QQVZZGB"',
+silly get cb     'content-type': 'application/json',
+silly get cb     'cache-control': 'max-age=60',
+silly get cb     'content-length': '729',
+silly get cb     'accept-ranges': 'bytes',
+silly get cb     date: 'Tue, 30 Dec 2014 17:41:56 GMT',
+silly get cb     age: '0',
+silly get cb     'x-served-by': 'cache-ams4130-AMS',
+silly get cb     'x-cache': 'HIT, MISS from non_disclosed',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1419961316.098902,VS0,VE642',
+silly get cb     vary: 'Accept',
+silly get cb     'x-cache-lookup': 'MISS from non_disclosed:3128',
+silly get cb     via: '1.1 varnish, 1.1 non_disclosed:3128 (squid)',
+silly get cb     connection: 'keep-alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/cookie'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/cookie/0.1.0'
+verbose mkdir done: /home/vagrant/.npm/cookie/0.1.0 755
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-23-generic-pae',
+verbose bin dist   { shasum: '90eb469ddce905c866de687efc43131d8801f9d0',
+verbose bin dist     tarball: 'http://registry.npmjs.org/cookie/-/cookie-0.1.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/cookie/-/cookie-0.1.0.tgz',
+verbose addRemoteTarball   '90eb469ddce905c866de687efc43131d8801f9d0' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961316773-0.021032382966950536'
+verbose mkdir done: /tmp/npm-1419961315147/1419961316773-0.021032382966950536 755
+verbose fetch to /tmp/npm-1419961315147/1419961316773-0.021032382966950536/tmp.tgz
+http GET http://registry.npmjs.org/cookie/-/cookie-0.1.0.tgz
+http 200 http://registry.npmjs.org/mkdirp/0.3.5
+silly get cb [ 200,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"EN5ZAENBT9LGFGCCQLHAJ8W4X"',
+silly get cb     'content-type': 'application/json',
+silly get cb     'cache-control': 'max-age=60',
+silly get cb     'content-length': '712',
+silly get cb     'accept-ranges': 'bytes',
+silly get cb     date: 'Tue, 30 Dec 2014 17:41:56 GMT',
+silly get cb     age: '0',
+silly get cb     'x-served-by': 'cache-ams4142-AMS',
+silly get cb     'x-cache': 'HIT, MISS from non_disclosed',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1419961316.174443,VS0,VE644',
+silly get cb     vary: 'Accept',
+silly get cb     'x-cache-lookup': 'MISS from non_disclosed:3128',
+silly get cb     via: '1.1 varnish, 1.1 non_disclosed:3128 (squid)',
+silly get cb     connection: 'keep-alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/mkdirp'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/mkdirp/0.3.5'
+verbose mkdir done: /home/vagrant/.npm/mkdirp/0.3.5 755
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-23-generic-pae',
+verbose bin dist   { shasum: 'de3e5f8961c88c787ee1368df849ac4413eca8d7',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz',
+verbose addRemoteTarball   'de3e5f8961c88c787ee1368df849ac4413eca8d7' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961316855-0.47658597212284803'
+verbose mkdir done: /tmp/npm-1419961315147/1419961316855-0.47658597212284803 755
+verbose fetch to /tmp/npm-1419961315147/1419961316855-0.47658597212284803/tmp.tgz
+http GET http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+http 200 http://registry.npmjs.org/connect/2.11.0
+silly get cb [ 200,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"F0L4LQEF9YC0X7MRS9J9KWJ0Z"',
+silly get cb     'content-type': 'application/json',
+silly get cb     'cache-control': 'max-age=60',
+silly get cb     'content-length': '1400',
+silly get cb     'accept-ranges': 'bytes',
+silly get cb     date: 'Tue, 30 Dec 2014 17:41:56 GMT',
+silly get cb     age: '0',
+silly get cb     'x-served-by': 'cache-ams4126-AMS',
+silly get cb     'x-cache': 'MISS, MISS from non_disclosed',
+silly get cb     'x-cache-hits': '0',
+silly get cb     'x-timer': 'S1419961316.178313,VS0,VE677',
+silly get cb     vary: 'Accept',
+silly get cb     'x-cache-lookup': 'MISS from non_disclosed:3128',
+silly get cb     via: '1.1 varnish, 1.1 non_disclosed:3128 (squid)',
+silly get cb     connection: 'keep-alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/connect'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/connect/2.11.0'
+verbose mkdir done: /home/vagrant/.npm/connect/2.11.0 755
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-23-generic-pae',
+verbose bin dist   { shasum: '9991ce09ff9b85d9ead27f9d41d0b2a2df2f9284',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect/-/connect-2.11.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/connect/-/connect-2.11.0.tgz',
+verbose addRemoteTarball   '9991ce09ff9b85d9ead27f9d41d0b2a2df2f9284' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961316889-0.05213303514756262'
+verbose mkdir done: /tmp/npm-1419961315147/1419961316889-0.05213303514756262 755
+verbose fetch to /tmp/npm-1419961315147/1419961316889-0.05213303514756262/tmp.tgz
+http GET http://registry.npmjs.org/connect/-/connect-2.11.0.tgz
+http 200 http://registry.npmjs.org/fresh/0.2.0
+silly get cb [ 200,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+silly get cb     etag: '"561CLU2944FYBNMBA0DL3S0GR"',
+silly get cb     'content-type': 'application/json',
+silly get cb     'cache-control': 'max-age=60',
+silly get cb     'content-length': '737',
+silly get cb     'accept-ranges': 'bytes',
+silly get cb     date: 'Tue, 30 Dec 2014 17:41:57 GMT',
+silly get cb     age: '0',
+silly get cb     'x-served-by': 'cache-ams4124-AMS',
+silly get cb     'x-cache': 'HIT, MISS from non_disclosed',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1419961316.690926,VS0,VE364',
+silly get cb     vary: 'Accept',
+silly get cb     'x-cache-lookup': 'MISS from non_disclosed:3128',
+silly get cb     via: '1.1 varnish, 1.1 non_disclosed:3128 (squid)',
+silly get cb     connection: 'keep-alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/fresh'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/fresh/0.2.0'
+verbose mkdir done: /home/vagrant/.npm/fresh/0.2.0 755
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-23-generic-pae',
+verbose bin dist   { shasum: 'bfd9402cf3df12c4a4c310c79f99a3dde13d34a7',
+verbose bin dist     tarball: 'http://registry.npmjs.org/fresh/-/fresh-0.2.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/fresh/-/fresh-0.2.0.tgz',
+verbose addRemoteTarball   'bfd9402cf3df12c4a4c310c79f99a3dde13d34a7' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961317088-0.3860586122609675'
+verbose mkdir done: /tmp/npm-1419961315147/1419961317088-0.3860586122609675 755
+verbose fetch to /tmp/npm-1419961315147/1419961317088-0.3860586122609675/tmp.tgz
+http GET http://registry.npmjs.org/fresh/-/fresh-0.2.0.tgz
+http 200 http://registry.npmjs.org/commander/-/commander-1.3.2.tgz
+silly updated sha bytes 10942
+info shasum 8a8f30ec670a6fdd64af52f1914b907d79ead5b5
+info shasum /tmp/npm-1419961315147/1419961316222-0.3124610169325024/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961316222-0.3124610169325024/___package.npm'
+verbose mkdir done: /tmp/npm-1419961315147/1419961316222-0.3124610169325024/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1419961315147/1419961316222-0.3124610169325024/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316222-0.3124610169325024/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316222-0.3124610169325024/___package.npm/package/Readme.md
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316222-0.3124610169325024/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316222-0.3124610169325024/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316222-0.3124610169325024/___package.npm/package/History.md
+silly chmod package 755
+verbose gunzed /tmp/npm-1419961315147/1419961316222-0.3124610169325024/___package.npm/package
+verbose rm'ed /tmp/npm-1419961315147/1419961316222-0.3124610169325024/package
+verbose renamed [ '/tmp/npm-1419961315147/1419961316222-0.3124610169325024/___package.npm/package',
+verbose renamed   '/tmp/npm-1419961315147/1419961316222-0.3124610169325024/package' ]
+verbose caching /tmp/npm-1419961315147/1419961316222-0.3124610169325024/package/package.json
+verbose loadDefaults commander@1.3.2
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+verbose from cache /tmp/npm-1419961315147/1419961316222-0.3124610169325024/package/package.json
+verbose pack /tmp/npm-1419961315147/1419961316222-0.3124610169325024/package
+verbose pack /tmp/npm-1419961315147/1419961316222-0.3124610169325024/package /home/vagrant/.npm/commander/1.3.2/package.tgz
+silly makeList /tmp/npm-1419961315147/1419961316222-0.3124610169325024/package
+silly dir, dirLen [ '/tmp/npm-1419961315147/1419961316222-0.3124610169325024/package',
+silly dir, dirLen   64 ]
+verbose tarball /home/vagrant/.npm/commander/1.3.2/package.tgz
+verbose parent /tmp/npm-1419961315147/1419961316222-0.3124610169325024/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/commander/1.3.2/___package.npm'
+verbose mkdir done: /home/vagrant/.npm/commander/1.3.2/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/.npm/commander/1.3.2/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/vagrant/.npm/commander/1.3.2/___package.npm/package
+silly asyncMap in gTP /home/vagrant/.npm/commander/1.3.2/___package.npm/package/History.md
+silly asyncMap in gTP /home/vagrant/.npm/commander/1.3.2/___package.npm/package/index.js
+silly asyncMap in gTP /home/vagrant/.npm/commander/1.3.2/___package.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/.npm/commander/1.3.2/___package.npm/package/Readme.md
+verbose gunzed /home/vagrant/.npm/commander/1.3.2/___package.npm/package
+verbose rm'ed /home/vagrant/.npm/commander/1.3.2/package
+http 200 http://registry.npmjs.org/range-parser/-/range-parser-0.0.4.tgz
+verbose renamed [ '/home/vagrant/.npm/commander/1.3.2/___package.npm/package',
+verbose renamed   '/home/vagrant/.npm/commander/1.3.2/package' ]
+verbose caching /home/vagrant/.npm/commander/1.3.2/package/package.json
+verbose loadDefaults commander@1.3.2
+silly updated sha bytes 1283
+info shasum c0427ffef51c10acba0782a46c9602e744ff620b
+info shasum /tmp/npm-1419961315147/1419961316649-0.47589320689439774/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961316649-0.47589320689439774/___package.npm'
+verbose mkdir done: /tmp/npm-1419961315147/1419961316649-0.47589320689439774/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1419961315147/1419961316649-0.47589320689439774/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316649-0.47589320689439774/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316649-0.47589320689439774/___package.npm/package/Readme.md
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316649-0.47589320689439774/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316649-0.47589320689439774/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316649-0.47589320689439774/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316649-0.47589320689439774/___package.npm/package/Makefile
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316649-0.47589320689439774/___package.npm/package/History.md
+silly chmod package 755
+verbose gunzed /tmp/npm-1419961315147/1419961316649-0.47589320689439774/___package.npm/package
+verbose rm'ed /tmp/npm-1419961315147/1419961316649-0.47589320689439774/package
+verbose renamed [ '/tmp/npm-1419961315147/1419961316649-0.47589320689439774/___package.npm/package',
+verbose renamed   '/tmp/npm-1419961315147/1419961316649-0.47589320689439774/package' ]
+verbose caching /tmp/npm-1419961315147/1419961316649-0.47589320689439774/package/package.json
+verbose loadDefaults range-parser@0.0.4
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+verbose from cache /tmp/npm-1419961315147/1419961316649-0.47589320689439774/package/package.json
+verbose pack /tmp/npm-1419961315147/1419961316649-0.47589320689439774/package
+verbose pack /tmp/npm-1419961315147/1419961316649-0.47589320689439774/package /home/vagrant/.npm/range-parser/0.0.4/package.tgz
+silly makeList /tmp/npm-1419961315147/1419961316649-0.47589320689439774/package
+silly dir, dirLen [ '/tmp/npm-1419961315147/1419961316649-0.47589320689439774/package',
+silly dir, dirLen   65 ]
+verbose tarball /home/vagrant/.npm/range-parser/0.0.4/package.tgz
+verbose parent /tmp/npm-1419961315147/1419961316649-0.47589320689439774/package
+silly updated sha bytes 10960
+info shasum 8d89cfe6b4fe34875a753bafbd853e75260f353f
+info shasum /home/vagrant/.npm/commander/1.3.2/package.tgz
+verbose from cache /home/vagrant/.npm/commander/1.3.2/package/package.json
+verbose chmod /home/vagrant/.npm/commander/1.3.2/package.tgz 644
+verbose chown [ '/home/vagrant/.npm/commander/1.3.2/package.tgz', 1000, 1000 ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/range-parser/0.0.4/___package.npm'
+verbose mkdir done: /home/vagrant/.npm/range-parser/0.0.4/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/.npm/range-parser/0.0.4/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/vagrant/.npm/range-parser/0.0.4/___package.npm/package
+silly asyncMap in gTP /home/vagrant/.npm/range-parser/0.0.4/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/vagrant/.npm/range-parser/0.0.4/___package.npm/package/History.md
+silly asyncMap in gTP /home/vagrant/.npm/range-parser/0.0.4/___package.npm/package/index.js
+silly asyncMap in gTP /home/vagrant/.npm/range-parser/0.0.4/___package.npm/package/Makefile
+silly asyncMap in gTP /home/vagrant/.npm/range-parser/0.0.4/___package.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/.npm/range-parser/0.0.4/___package.npm/package/Readme.md
+http 200 http://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.1.tgz
+verbose gunzed /home/vagrant/.npm/range-parser/0.0.4/___package.npm/package
+verbose rm'ed /home/vagrant/.npm/range-parser/0.0.4/package
+verbose renamed [ '/home/vagrant/.npm/range-parser/0.0.4/___package.npm/package',
+verbose renamed   '/home/vagrant/.npm/range-parser/0.0.4/package' ]
+silly updated sha bytes 3871
+info shasum be3e5382fc02b6d6324956ac1af98aa98b08534c
+info shasum /tmp/npm-1419961315147/1419961316664-0.5863154120743275/tmp.tgz
+verbose caching /home/vagrant/.npm/range-parser/0.0.4/package/package.json
+verbose loadDefaults range-parser@0.0.4
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961316664-0.5863154120743275/___package.npm'
+verbose mkdir done: /tmp/npm-1419961315147/1419961316664-0.5863154120743275/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1419961315147/1419961316664-0.5863154120743275/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly updated sha bytes 1283
+info shasum 8204ad26d7f6ee7cbf26189ae9fe0e726c37970c
+info shasum /home/vagrant/.npm/range-parser/0.0.4/package.tgz
+verbose from cache /home/vagrant/.npm/range-parser/0.0.4/package/package.json
+verbose chmod /home/vagrant/.npm/range-parser/0.0.4/package.tgz 644
+verbose chown [ '/home/vagrant/.npm/range-parser/0.0.4/package.tgz',
+verbose chown   1000,
+verbose chown   1000 ]
+silly afterUntar ok
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316664-0.5863154120743275/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316664-0.5863154120743275/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316664-0.5863154120743275/___package.npm/package/README.md
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316664-0.5863154120743275/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316664-0.5863154120743275/___package.npm/package/.travis.yml
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316664-0.5863154120743275/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316664-0.5863154120743275/___package.npm/package/tests
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316664-0.5863154120743275/___package.npm/package/tests/crc.test.js
+silly chmod package 755
+silly chmod tests 755
+verbose gunzed /tmp/npm-1419961315147/1419961316664-0.5863154120743275/___package.npm/package
+verbose rm'ed /tmp/npm-1419961315147/1419961316664-0.5863154120743275/package
+verbose renamed [ '/tmp/npm-1419961315147/1419961316664-0.5863154120743275/___package.npm/package',
+verbose renamed   '/tmp/npm-1419961315147/1419961316664-0.5863154120743275/package' ]
+verbose caching /tmp/npm-1419961315147/1419961316664-0.5863154120743275/package/package.json
+verbose loadDefaults buffer-crc32@0.2.1
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+verbose from cache /tmp/npm-1419961315147/1419961316664-0.5863154120743275/package/package.json
+verbose pack /tmp/npm-1419961315147/1419961316664-0.5863154120743275/package
+verbose pack /tmp/npm-1419961315147/1419961316664-0.5863154120743275/package /home/vagrant/.npm/buffer-crc32/0.2.1/package.tgz
+silly makeList /tmp/npm-1419961315147/1419961316664-0.5863154120743275/package
+silly dir, dirLen [ '/tmp/npm-1419961315147/1419961316664-0.5863154120743275/package',
+silly dir, dirLen   64 ]
+verbose tarball /home/vagrant/.npm/buffer-crc32/0.2.1/package.tgz
+verbose parent /tmp/npm-1419961315147/1419961316664-0.5863154120743275/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/buffer-crc32/0.2.1/___package.npm'
+verbose mkdir done: /home/vagrant/.npm/buffer-crc32/0.2.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/.npm/buffer-crc32/0.2.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+http 200 http://registry.npmjs.org/methods/0.1.0
+silly get cb [ 200,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"91SCYGFBYCD6WYNRIO6II4PS3"',
+silly get cb     'content-type': 'application/json',
+silly get cb     'cache-control': 'max-age=60',
+silly get cb     'content-length': '733',
+silly get cb     'accept-ranges': 'bytes',
+silly get cb     date: 'Tue, 30 Dec 2014 17:41:57 GMT',
+silly get cb     age: '0',
+silly get cb     'x-served-by': 'cache-ams4143-AMS',
+silly get cb     'x-cache': 'HIT, MISS from non_disclosed',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1419961316.711034,VS0,VE682',
+silly get cb     vary: 'Accept',
+silly get cb     'x-cache-lookup': 'MISS from non_disclosed:3128',
+silly get cb     via: '1.1 varnish, 1.1 non_disclosed:3128 (squid)',
+silly get cb     connection: 'keep-alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/methods'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/methods/0.1.0'
+verbose mkdir done: /home/vagrant/.npm/methods/0.1.0 755
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-23-generic-pae',
+verbose bin dist   { shasum: '335d429eefd21b7bacf2e9c922a8d2bd14a30e4f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/methods/-/methods-0.1.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/methods/-/methods-0.1.0.tgz',
+verbose addRemoteTarball   '335d429eefd21b7bacf2e9c922a8d2bd14a30e4f' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961317451-0.09387645893730223'
+verbose mkdir done: /tmp/npm-1419961315147/1419961317451-0.09387645893730223 755
+verbose fetch to /tmp/npm-1419961315147/1419961317451-0.09387645893730223/tmp.tgz
+http GET http://registry.npmjs.org/methods/-/methods-0.1.0.tgz
+http 200 http://registry.npmjs.org/cookie/-/cookie-0.1.0.tgz
+silly afterUntar ok
+silly updated sha bytes 3139
+info shasum 90eb469ddce905c866de687efc43131d8801f9d0
+info shasum /tmp/npm-1419961315147/1419961316773-0.021032382966950536/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm'
+verbose mkdir done: /tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1419961315147/1419961316773-0.021032382966950536/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm/package/LICENSE
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm/package/README.md
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm/package/.travis.yml
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm/package/test
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm/package/test/mocha.opts
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm/package/test/serialize.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm/package/test/parse.js
+silly chmod package 755
+silly chmod test 755
+verbose gunzed /tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm/package
+verbose rm'ed /tmp/npm-1419961315147/1419961316773-0.021032382966950536/package
+verbose renamed [ '/tmp/npm-1419961315147/1419961316773-0.021032382966950536/___package.npm/package',
+verbose renamed   '/tmp/npm-1419961315147/1419961316773-0.021032382966950536/package' ]
+verbose caching /tmp/npm-1419961315147/1419961316773-0.021032382966950536/package/package.json
+verbose loadDefaults cookie@0.1.0
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+verbose from cache /tmp/npm-1419961315147/1419961316773-0.021032382966950536/package/package.json
+verbose pack /tmp/npm-1419961315147/1419961316773-0.021032382966950536/package
+verbose pack /tmp/npm-1419961315147/1419961316773-0.021032382966950536/package /home/vagrant/.npm/cookie/0.1.0/package.tgz
+silly makeList /tmp/npm-1419961315147/1419961316773-0.021032382966950536/package
+silly asyncMap in gTP /home/vagrant/.npm/buffer-crc32/0.2.1/___package.npm/package
+silly asyncMap in gTP /home/vagrant/.npm/buffer-crc32/0.2.1/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/vagrant/.npm/buffer-crc32/0.2.1/___package.npm/package/.travis.yml
+silly asyncMap in gTP /home/vagrant/.npm/buffer-crc32/0.2.1/___package.npm/package/index.js
+silly asyncMap in gTP /home/vagrant/.npm/buffer-crc32/0.2.1/___package.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/.npm/buffer-crc32/0.2.1/___package.npm/package/README.md
+silly asyncMap in gTP /home/vagrant/.npm/buffer-crc32/0.2.1/___package.npm/package/tests
+silly asyncMap in gTP /home/vagrant/.npm/buffer-crc32/0.2.1/___package.npm/package/tests/crc.test.js
+silly dir, dirLen [ '/tmp/npm-1419961315147/1419961316773-0.021032382966950536/package',
+silly dir, dirLen   66 ]
+verbose tarball /home/vagrant/.npm/cookie/0.1.0/package.tgz
+verbose parent /tmp/npm-1419961315147/1419961316773-0.021032382966950536/package
+http 200 http://registry.npmjs.org/debug
+silly get cb [ 200,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+silly get cb     etag: '"8RE09RF5XBKPDYSKX8AOXK49B"',
+silly get cb     'content-type': 'application/json',
+silly get cb     'cache-control': 'max-age=60',
+silly get cb     'content-length': '29820',
+silly get cb     'accept-ranges': 'bytes',
+silly get cb     date: 'Tue, 30 Dec 2014 17:41:57 GMT',
+silly get cb     age: '0',
+silly get cb     'x-served-by': 'cache-ams4126-AMS',
+silly get cb     'x-cache': 'HIT, MISS from non_disclosed',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1419961316.927886,VS0,VE369',
+silly get cb     vary: 'Accept',
+silly get cb     'x-cache-lookup': 'MISS from non_disclosed:3128',
+silly get cb     via: '1.1 varnish, 1.1 non_disclosed:3128 (squid)',
+silly get cb     connection: 'keep-alive' } ]
+http 200 http://registry.npmjs.org/send/0.1.4
+silly get cb [ 200,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+silly get cb     etag: '"1QS6NIEXA3IUIRT9VB4S3IK5Y"',
+silly get cb     'content-type': 'application/json',
+silly get cb     'cache-control': 'max-age=60',
+silly get cb     'content-length': '897',
+silly get cb     'accept-ranges': 'bytes',
+silly get cb     date: 'Tue, 30 Dec 2014 17:41:57 GMT',
+silly get cb     age: '0',
+silly get cb     'x-served-by': 'cache-ams4130-AMS',
+silly get cb     'x-cache': 'HIT, MISS from non_disclosed',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1419961316.814128,VS0,VE663',
+silly get cb     vary: 'Accept',
+silly get cb     'x-cache-lookup': 'MISS from non_disclosed:3128',
+silly get cb     via: '1.1 varnish, 1.1 non_disclosed:3128 (squid)',
+silly get cb     connection: 'keep-alive' } ]
+verbose gunzed /home/vagrant/.npm/buffer-crc32/0.2.1/___package.npm/package
+http 200 http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/debug'
+verbose rm'ed /home/vagrant/.npm/buffer-crc32/0.2.1/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/send'
+verbose mkdir done: /home/vagrant/.npm/debug 755
+verbose renamed [ '/home/vagrant/.npm/buffer-crc32/0.2.1/___package.npm/package',
+verbose renamed   '/home/vagrant/.npm/buffer-crc32/0.2.1/package' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/send/0.1.4'
+silly updated sha bytes 4162
+verbose mkdir done: /home/vagrant/.npm/send/0.1.4 755
+info shasum de3e5f8961c88c787ee1368df849ac4413eca8d7
+info shasum /tmp/npm-1419961315147/1419961316855-0.47658597212284803/tmp.tgz
+verbose caching /home/vagrant/.npm/buffer-crc32/0.2.1/package/package.json
+verbose loadDefaults buffer-crc32@0.2.1
+silly name, range, hasData 2 [ 'debug', '', true ]
+silly versions [ 'debug',
+silly versions   [ '0.0.1',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.5.0',
+silly versions     '0.6.0',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.7.3',
+silly versions     '0.7.4',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '2.0.0',
+silly versions     '2.1.0',
+silly versions     '2.1.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-23-generic-pae',
+verbose bin dist   { shasum: 'e0c548cc607adc22b537540dc3639c4236fdf90c',
+verbose bin dist     tarball: 'http://registry.npmjs.org/debug/-/debug-2.1.1.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/debug/-/debug-2.1.1.tgz',
+verbose addRemoteTarball   'e0c548cc607adc22b537540dc3639c4236fdf90c' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm'
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-23-generic-pae',
+verbose bin dist   { shasum: 'be70d8d1be01de61821af13780b50345a4f71abd',
+verbose bin dist     tarball: 'http://registry.npmjs.org/send/-/send-0.1.4.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/send/-/send-0.1.4.tgz',
+verbose addRemoteTarball   'be70d8d1be01de61821af13780b50345a4f71abd' ]
+verbose mkdir done: /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961317524-0.5515032743569463'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1419961315147/1419961316855-0.47658597212284803/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly updated sha bytes 3895
+verbose mkdir done: /tmp/npm-1419961315147/1419961317524-0.5515032743569463 755
+info shasum f5b20c97f2dc31e0219a2348a01b3dbbe50e5905
+info shasum /home/vagrant/.npm/buffer-crc32/0.2.1/package.tgz
+verbose from cache /home/vagrant/.npm/buffer-crc32/0.2.1/package/package.json
+verbose chmod /home/vagrant/.npm/buffer-crc32/0.2.1/package.tgz 644
+verbose chown [ '/home/vagrant/.npm/buffer-crc32/0.2.1/package.tgz',
+verbose chown   1000,
+verbose chown   1000 ]
+verbose fetch to /tmp/npm-1419961315147/1419961317524-0.5515032743569463/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961317527-0.6046868481207639'
+verbose mkdir done: /tmp/npm-1419961315147/1419961317527-0.6046868481207639 755
+http GET http://registry.npmjs.org/debug/-/debug-2.1.1.tgz
+verbose fetch to /tmp/npm-1419961315147/1419961317527-0.6046868481207639/tmp.tgz
+http GET http://registry.npmjs.org/send/-/send-0.1.4.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/cookie/0.1.0/___package.npm'
+verbose mkdir done: /home/vagrant/.npm/cookie/0.1.0/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/.npm/cookie/0.1.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/readme.markdown
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/LICENSE
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/.travis.yml
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test/sync.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test/root.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test/rel.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test/mkdirp.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test/return_sync.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test/perm.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test/umask_sync.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test/clobber.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test/umask.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test/race.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test/chmod.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test/perm_sync.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/test/return.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/examples
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package/examples/pow.js
+http 200 http://registry.npmjs.org/connect/-/connect-2.11.0.tgz
+silly chmod package 755
+silly chmod test 755
+silly chmod examples 755
+verbose gunzed /tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package
+verbose rm'ed /tmp/npm-1419961315147/1419961316855-0.47658597212284803/package
+verbose renamed [ '/tmp/npm-1419961315147/1419961316855-0.47658597212284803/___package.npm/package',
+verbose renamed   '/tmp/npm-1419961315147/1419961316855-0.47658597212284803/package' ]
+verbose caching /tmp/npm-1419961315147/1419961316855-0.47658597212284803/package/package.json
+verbose loadDefaults mkdirp@0.3.5
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+verbose from cache /tmp/npm-1419961315147/1419961316855-0.47658597212284803/package/package.json
+verbose pack /tmp/npm-1419961315147/1419961316855-0.47658597212284803/package
+verbose pack /tmp/npm-1419961315147/1419961316855-0.47658597212284803/package /home/vagrant/.npm/mkdirp/0.3.5/package.tgz
+silly makeList /tmp/npm-1419961315147/1419961316855-0.47658597212284803/package
+silly dir, dirLen [ '/tmp/npm-1419961315147/1419961316855-0.47658597212284803/package',
+silly dir, dirLen   65 ]
+verbose tarball /home/vagrant/.npm/mkdirp/0.3.5/package.tgz
+verbose parent /tmp/npm-1419961315147/1419961316855-0.47658597212284803/package
+http 200 http://registry.npmjs.org/cookie-signature/1.0.1
+silly get cb [ 200,
+silly get cb   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+silly get cb     etag: '"EJ3YREUJMB0OWNKTJ5E05YJRG"',
+silly get cb     'content-type': 'application/json',
+silly get cb     'cache-control': 'max-age=60',
+silly get cb     'content-length': '627',
+silly get cb     'accept-ranges': 'bytes',
+silly get cb     date: 'Tue, 30 Dec 2014 17:41:57 GMT',
+silly get cb     age: '0',
+silly get cb     'x-served-by': 'cache-ams4142-AMS',
+silly get cb     'x-cache': 'HIT, MISS from non_disclosed',
+silly get cb     'x-cache-hits': '1',
+silly get cb     'x-timer': 'S1419961316.904341,VS0,VE642',
+silly get cb     vary: 'Accept',
+silly get cb     'x-cache-lookup': 'MISS from non_disclosed:3128',
+silly get cb     via: '1.1 varnish, 1.1 non_disclosed:3128 (squid)',
+silly get cb     connection: 'keep-alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/cookie-signature'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/cookie-signature/1.0.1'
+verbose mkdir done: /home/vagrant/.npm/cookie-signature/1.0.1 755
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-ia32-3.2.0-23-generic-pae',
+verbose bin dist   { shasum: '44e072148af01e6e8e24afbf12690d68ae698ecb',
+verbose bin dist     tarball: 'http://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.1.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.1.tgz',
+verbose addRemoteTarball   '44e072148af01e6e8e24afbf12690d68ae698ecb' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961317596-0.770346634555608'
+verbose mkdir done: /tmp/npm-1419961315147/1419961317596-0.770346634555608 755
+verbose fetch to /tmp/npm-1419961315147/1419961317596-0.770346634555608/tmp.tgz
+http GET http://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.1.tgz
+http 200 http://registry.npmjs.org/fresh/-/fresh-0.2.0.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/mkdirp/0.3.5/___package.npm'
+verbose mkdir done: /home/vagrant/.npm/mkdirp/0.3.5/___package.npm 755
+silly updated sha bytes 1887
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/.npm/mkdirp/0.3.5/package
+silly gunzTarPerm modes [ '755', '644' ]
+info shasum bfd9402cf3df12c4a4c310c79f99a3dde13d34a7
+info shasum /tmp/npm-1419961315147/1419961317088-0.3860586122609675/tmp.tgz
+http 200 http://registry.npmjs.org/methods/-/methods-0.1.0.tgz
+http 200 http://registry.npmjs.org/debug/-/debug-2.1.1.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961317088-0.3860586122609675/___package.npm'
+verbose mkdir done: /tmp/npm-1419961315147/1419961317088-0.3860586122609675/___package.npm 755
+silly updated sha bytes 732
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1419961315147/1419961317088-0.3860586122609675/package
+silly gunzTarPerm modes [ '755', '644' ]
+info shasum 335d429eefd21b7bacf2e9c922a8d2bd14a30e4f
+info shasum /tmp/npm-1419961315147/1419961317451-0.09387645893730223/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961317451-0.09387645893730223/___package.npm'
+verbose mkdir done: /tmp/npm-1419961315147/1419961317451-0.09387645893730223/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1419961315147/1419961317451-0.09387645893730223/package
+silly gunzTarPerm modes [ '755', '644' ]
+http 200 http://registry.npmjs.org/send/-/send-0.1.4.tgz
+silly afterUntar ok
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317451-0.09387645893730223/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317451-0.09387645893730223/___package.npm/package/Readme.md
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317451-0.09387645893730223/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317451-0.09387645893730223/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317451-0.09387645893730223/___package.npm/package/History.md
+silly chmod package 755
+verbose gunzed /tmp/npm-1419961315147/1419961317451-0.09387645893730223/___package.npm/package
+verbose rm'ed /tmp/npm-1419961315147/1419961317451-0.09387645893730223/package
+silly afterUntar ok
+verbose renamed [ '/tmp/npm-1419961315147/1419961317451-0.09387645893730223/___package.npm/package',
+verbose renamed   '/tmp/npm-1419961315147/1419961317451-0.09387645893730223/package' ]
+silly afterUntar ok
+silly updated sha bytes 5824
+info shasum be70d8d1be01de61821af13780b50345a4f71abd
+info shasum /tmp/npm-1419961315147/1419961317527-0.6046868481207639/tmp.tgz
+verbose caching /tmp/npm-1419961315147/1419961317451-0.09387645893730223/package/package.json
+verbose loadDefaults methods@0.1.0
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317088-0.3860586122609675/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317088-0.3860586122609675/___package.npm/package/Readme.md
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317088-0.3860586122609675/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317088-0.3860586122609675/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317088-0.3860586122609675/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317088-0.3860586122609675/___package.npm/package/Makefile
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317088-0.3860586122609675/___package.npm/package/History.md
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm'
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+silly chmod package 755
+verbose mkdir done: /tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm 755
+verbose from cache /tmp/npm-1419961315147/1419961317451-0.09387645893730223/package/package.json
+verbose pack /tmp/npm-1419961315147/1419961317451-0.09387645893730223/package
+verbose pack /tmp/npm-1419961315147/1419961317451-0.09387645893730223/package /home/vagrant/.npm/methods/0.1.0/package.tgz
+silly makeList /tmp/npm-1419961315147/1419961317451-0.09387645893730223/package
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1419961315147/1419961317527-0.6046868481207639/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /tmp/npm-1419961315147/1419961317088-0.3860586122609675/___package.npm/package
+verbose rm'ed /tmp/npm-1419961315147/1419961317088-0.3860586122609675/package
+silly asyncMap in gTP /home/vagrant/.npm/cookie/0.1.0/___package.npm/package
+silly asyncMap in gTP /home/vagrant/.npm/cookie/0.1.0/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/vagrant/.npm/cookie/0.1.0/___package.npm/package/.travis.yml
+silly asyncMap in gTP /home/vagrant/.npm/cookie/0.1.0/___package.npm/package/index.js
+silly asyncMap in gTP /home/vagrant/.npm/cookie/0.1.0/___package.npm/package/LICENSE
+silly asyncMap in gTP /home/vagrant/.npm/cookie/0.1.0/___package.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/.npm/cookie/0.1.0/___package.npm/package/README.md
+silly asyncMap in gTP /home/vagrant/.npm/cookie/0.1.0/___package.npm/package/test
+silly asyncMap in gTP /home/vagrant/.npm/cookie/0.1.0/___package.npm/package/test/mocha.opts
+silly asyncMap in gTP /home/vagrant/.npm/cookie/0.1.0/___package.npm/package/test/parse.js
+silly asyncMap in gTP /home/vagrant/.npm/cookie/0.1.0/___package.npm/package/test/serialize.js
+silly dir, dirLen [ '/tmp/npm-1419961315147/1419961317451-0.09387645893730223/package',
+silly dir, dirLen   65 ]
+verbose tarball /home/vagrant/.npm/methods/0.1.0/package.tgz
+verbose parent /tmp/npm-1419961315147/1419961317451-0.09387645893730223/package
+verbose renamed [ '/tmp/npm-1419961315147/1419961317088-0.3860586122609675/___package.npm/package',
+verbose renamed   '/tmp/npm-1419961315147/1419961317088-0.3860586122609675/package' ]
+silly updated sha bytes 9767
+http 200 http://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.1.tgz
+info shasum e0c548cc607adc22b537540dc3639c4236fdf90c
+info shasum /tmp/npm-1419961315147/1419961317524-0.5515032743569463/tmp.tgz
+verbose caching /tmp/npm-1419961315147/1419961317088-0.3860586122609675/package/package.json
+verbose loadDefaults fresh@0.2.0
+verbose gunzed /home/vagrant/.npm/cookie/0.1.0/___package.npm/package
+silly updated sha bytes 1828
+info shasum 44e072148af01e6e8e24afbf12690d68ae698ecb
+info shasum /tmp/npm-1419961315147/1419961317596-0.770346634555608/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm'
+verbose rm'ed /home/vagrant/.npm/cookie/0.1.0/package
+verbose mkdir done: /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm 755
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1419961315147/1419961317524-0.5515032743569463/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose from cache /tmp/npm-1419961315147/1419961317088-0.3860586122609675/package/package.json
+verbose pack /tmp/npm-1419961315147/1419961317088-0.3860586122609675/package
+verbose pack /tmp/npm-1419961315147/1419961317088-0.3860586122609675/package /home/vagrant/.npm/fresh/0.2.0/package.tgz
+silly makeList /tmp/npm-1419961315147/1419961317088-0.3860586122609675/package
+verbose renamed [ '/home/vagrant/.npm/cookie/0.1.0/___package.npm/package',
+verbose renamed   '/home/vagrant/.npm/cookie/0.1.0/package' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961317596-0.770346634555608/___package.npm'
+verbose mkdir done: /tmp/npm-1419961315147/1419961317596-0.770346634555608/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1419961315147/1419961317596-0.770346634555608/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose caching /home/vagrant/.npm/cookie/0.1.0/package/package.json
+verbose loadDefaults cookie@0.1.0
+silly dir, dirLen [ '/tmp/npm-1419961315147/1419961317088-0.3860586122609675/package',
+silly dir, dirLen   64 ]
+verbose tarball /home/vagrant/.npm/fresh/0.2.0/package.tgz
+verbose parent /tmp/npm-1419961315147/1419961317088-0.3860586122609675/package
+silly updated sha bytes 32768
+silly updated sha bytes 3202
+silly updated sha bytes 40960
+info shasum 0dbf1f3505f4c1456cdb19bc4d203e64b3a5939b
+info shasum /home/vagrant/.npm/cookie/0.1.0/package.tgz
+verbose from cache /home/vagrant/.npm/cookie/0.1.0/package/package.json
+verbose chmod /home/vagrant/.npm/cookie/0.1.0/package.tgz 644
+verbose chown [ '/home/vagrant/.npm/cookie/0.1.0/package.tgz', 1000, 1000 ]
+silly updated sha bytes 3630
+info shasum 9991ce09ff9b85d9ead27f9d41d0b2a2df2f9284
+info shasum /tmp/npm-1419961315147/1419961316889-0.05213303514756262/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm'
+verbose mkdir done: /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1419961315147/1419961316889-0.05213303514756262/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/methods/0.1.0/___package.npm'
+verbose mkdir done: /home/vagrant/.npm/methods/0.1.0/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/.npm/methods/0.1.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/fresh/0.2.0/___package.npm'
+verbose mkdir done: /home/vagrant/.npm/fresh/0.2.0/___package.npm 755
+silly afterUntar ok
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/.npm/fresh/0.2.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317596-0.770346634555608/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317596-0.770346634555608/___package.npm/package/Readme.md
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317596-0.770346634555608/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317596-0.770346634555608/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317596-0.770346634555608/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317596-0.770346634555608/___package.npm/package/Makefile
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317596-0.770346634555608/___package.npm/package/History.md
+silly chmod package 755
+verbose gunzed /tmp/npm-1419961315147/1419961317596-0.770346634555608/___package.npm/package
+verbose rm'ed /tmp/npm-1419961315147/1419961317596-0.770346634555608/package
+verbose renamed [ '/tmp/npm-1419961315147/1419961317596-0.770346634555608/___package.npm/package',
+verbose renamed   '/tmp/npm-1419961315147/1419961317596-0.770346634555608/package' ]
+verbose caching /tmp/npm-1419961315147/1419961317596-0.770346634555608/package/package.json
+verbose loadDefaults cookie-signature@1.0.1
+silly afterUntar ok
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+verbose from cache /tmp/npm-1419961315147/1419961317596-0.770346634555608/package/package.json
+verbose pack /tmp/npm-1419961315147/1419961317596-0.770346634555608/package
+verbose pack /tmp/npm-1419961315147/1419961317596-0.770346634555608/package /home/vagrant/.npm/cookie-signature/1.0.1/package.tgz
+silly makeList /tmp/npm-1419961315147/1419961317596-0.770346634555608/package
+silly afterUntar ok
+silly asyncMap in gTP /home/vagrant/.npm/methods/0.1.0/___package.npm/package
+silly asyncMap in gTP /home/vagrant/.npm/methods/0.1.0/___package.npm/package/History.md
+silly asyncMap in gTP /home/vagrant/.npm/methods/0.1.0/___package.npm/package/index.js
+silly asyncMap in gTP /home/vagrant/.npm/methods/0.1.0/___package.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/.npm/methods/0.1.0/___package.npm/package/Readme.md
+silly dir, dirLen [ '/tmp/npm-1419961315147/1419961317596-0.770346634555608/package',
+silly dir, dirLen   63 ]
+verbose tarball /home/vagrant/.npm/cookie-signature/1.0.1/package.tgz
+verbose parent /tmp/npm-1419961315147/1419961317596-0.770346634555608/package
+verbose gunzed /home/vagrant/.npm/methods/0.1.0/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm/package/Readme.md
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm/package/Makefile
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm/package/History.md
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm/package/lib
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm/package/lib/send.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm/package/lib/utils.js
+verbose rm'ed /home/vagrant/.npm/methods/0.1.0/package
+verbose renamed [ '/home/vagrant/.npm/methods/0.1.0/___package.npm/package',
+verbose renamed   '/home/vagrant/.npm/methods/0.1.0/package' ]
+silly chmod package 755
+silly chmod lib 755
+verbose gunzed /tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm/package
+verbose rm'ed /tmp/npm-1419961315147/1419961317527-0.6046868481207639/package
+verbose renamed [ '/tmp/npm-1419961315147/1419961317527-0.6046868481207639/___package.npm/package',
+verbose renamed   '/tmp/npm-1419961315147/1419961317527-0.6046868481207639/package' ]
+verbose caching /home/vagrant/.npm/methods/0.1.0/package/package.json
+verbose loadDefaults methods@0.1.0
+verbose caching /tmp/npm-1419961315147/1419961317527-0.6046868481207639/package/package.json
+verbose loadDefaults send@0.1.4
+silly updated sha bytes 741
+info shasum 6c4d9b81aba642cbe3e65e7dd41d53f8af231fcf
+info shasum /home/vagrant/.npm/methods/0.1.0/package.tgz
+verbose from cache /home/vagrant/.npm/methods/0.1.0/package/package.json
+verbose chmod /home/vagrant/.npm/methods/0.1.0/package.tgz 644
+verbose chown [ '/home/vagrant/.npm/methods/0.1.0/package.tgz', 1000, 1000 ]
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+verbose from cache /tmp/npm-1419961315147/1419961317527-0.6046868481207639/package/package.json
+verbose pack /tmp/npm-1419961315147/1419961317527-0.6046868481207639/package
+verbose pack /tmp/npm-1419961315147/1419961317527-0.6046868481207639/package /home/vagrant/.npm/send/0.1.4/package.tgz
+silly makeList /tmp/npm-1419961315147/1419961317527-0.6046868481207639/package
+silly dir, dirLen [ '/tmp/npm-1419961315147/1419961317527-0.6046868481207639/package',
+silly dir, dirLen   64 ]
+verbose tarball /home/vagrant/.npm/send/0.1.4/package.tgz
+verbose parent /tmp/npm-1419961315147/1419961317527-0.6046868481207639/package
+silly afterUntar ok
+silly afterUntar ok
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/cookie-signature/1.0.1/___package.npm'
+verbose mkdir done: /home/vagrant/.npm/cookie-signature/1.0.1/___package.npm 755
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package/debug.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package/component.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package/Readme.md
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package/bower.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package/browser.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package/.jshintrc
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package/node.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package/Makefile
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package/History.md
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/.npm/cookie-signature/1.0.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly asyncMap in gTP /home/vagrant/.npm/fresh/0.2.0/___package.npm/package
+silly asyncMap in gTP /home/vagrant/.npm/fresh/0.2.0/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/vagrant/.npm/fresh/0.2.0/___package.npm/package/History.md
+silly asyncMap in gTP /home/vagrant/.npm/fresh/0.2.0/___package.npm/package/index.js
+silly asyncMap in gTP /home/vagrant/.npm/fresh/0.2.0/___package.npm/package/Makefile
+silly asyncMap in gTP /home/vagrant/.npm/fresh/0.2.0/___package.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/.npm/fresh/0.2.0/___package.npm/package/Readme.md
+silly chmod package 755
+verbose gunzed /tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package
+verbose rm'ed /tmp/npm-1419961315147/1419961317524-0.5515032743569463/package
+verbose gunzed /home/vagrant/.npm/fresh/0.2.0/___package.npm/package
+verbose renamed [ '/tmp/npm-1419961315147/1419961317524-0.5515032743569463/___package.npm/package',
+verbose renamed   '/tmp/npm-1419961315147/1419961317524-0.5515032743569463/package' ]
+verbose rm'ed /home/vagrant/.npm/fresh/0.2.0/package
+verbose renamed [ '/home/vagrant/.npm/fresh/0.2.0/___package.npm/package',
+verbose renamed   '/home/vagrant/.npm/fresh/0.2.0/package' ]
+verbose caching /tmp/npm-1419961315147/1419961317524-0.5515032743569463/package/package.json
+verbose loadDefaults debug@2.1.1
+verbose caching /home/vagrant/.npm/fresh/0.2.0/package/package.json
+verbose loadDefaults fresh@0.2.0
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+verbose from cache /tmp/npm-1419961315147/1419961317524-0.5515032743569463/package/package.json
+verbose pack /tmp/npm-1419961315147/1419961317524-0.5515032743569463/package
+verbose pack /tmp/npm-1419961315147/1419961317524-0.5515032743569463/package /home/vagrant/.npm/debug/2.1.1/package.tgz
+silly makeList /tmp/npm-1419961315147/1419961317524-0.5515032743569463/package
+silly updated sha bytes 1884
+info shasum 283265bbfc58bb2aff53b6f82d8c253d2a980aa7
+info shasum /home/vagrant/.npm/fresh/0.2.0/package.tgz
+verbose from cache /home/vagrant/.npm/fresh/0.2.0/package/package.json
+verbose chmod /home/vagrant/.npm/fresh/0.2.0/package.tgz 644
+verbose chown [ '/home/vagrant/.npm/fresh/0.2.0/package.tgz', 1000, 1000 ]
+silly dir, dirLen [ '/tmp/npm-1419961315147/1419961317524-0.5515032743569463/package',
+silly dir, dirLen   64 ]
+verbose tarball /home/vagrant/.npm/debug/2.1.1/package.tgz
+verbose parent /tmp/npm-1419961315147/1419961317524-0.5515032743569463/package
+silly afterUntar ok
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/.travis.yml
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/index.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/LICENSE
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/readme.markdown
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/examples
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/examples/pow.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test/chmod.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test/clobber.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test/mkdirp.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test/perm.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test/perm_sync.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test/race.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test/rel.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test/return.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test/return_sync.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test/root.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test/sync.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test/umask.js
+silly asyncMap in gTP /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package/test/umask_sync.js
+verbose gunzed /home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package
+verbose rm'ed /home/vagrant/.npm/mkdirp/0.3.5/package
+verbose renamed [ '/home/vagrant/.npm/mkdirp/0.3.5/___package.npm/package',
+verbose renamed   '/home/vagrant/.npm/mkdirp/0.3.5/package' ]
+verbose caching /home/vagrant/.npm/mkdirp/0.3.5/package/package.json
+verbose loadDefaults mkdirp@0.3.5
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/send/0.1.4/___package.npm'
+verbose mkdir done: /home/vagrant/.npm/send/0.1.4/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/.npm/send/0.1.4/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly updated sha bytes 4245
+info shasum 653f13e53275b3c58889e79075b937ebb8fc058f
+info shasum /home/vagrant/.npm/mkdirp/0.3.5/package.tgz
+verbose from cache /home/vagrant/.npm/mkdirp/0.3.5/package/package.json
+verbose chmod /home/vagrant/.npm/mkdirp/0.3.5/package.tgz 644
+verbose chown [ '/home/vagrant/.npm/mkdirp/0.3.5/package.tgz', 1000, 1000 ]
+silly afterUntar ok
+silly asyncMap in gTP /home/vagrant/.npm/cookie-signature/1.0.1/___package.npm/package
+silly asyncMap in gTP /home/vagrant/.npm/cookie-signature/1.0.1/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/vagrant/.npm/cookie-signature/1.0.1/___package.npm/package/History.md
+silly asyncMap in gTP /home/vagrant/.npm/cookie-signature/1.0.1/___package.npm/package/index.js
+silly asyncMap in gTP /home/vagrant/.npm/cookie-signature/1.0.1/___package.npm/package/Makefile
+silly asyncMap in gTP /home/vagrant/.npm/cookie-signature/1.0.1/___package.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/.npm/cookie-signature/1.0.1/___package.npm/package/Readme.md
+verbose gunzed /home/vagrant/.npm/cookie-signature/1.0.1/___package.npm/package
+verbose rm'ed /home/vagrant/.npm/cookie-signature/1.0.1/package
+verbose renamed [ '/home/vagrant/.npm/cookie-signature/1.0.1/___package.npm/package',
+verbose renamed   '/home/vagrant/.npm/cookie-signature/1.0.1/package' ]
+verbose caching /home/vagrant/.npm/cookie-signature/1.0.1/package/package.json
+verbose loadDefaults cookie-signature@1.0.1
+silly updated sha bytes 1819
+info shasum f459eed0abd0793e99667eb8506e9bf5cf66bbfd
+info shasum /home/vagrant/.npm/cookie-signature/1.0.1/package.tgz
+verbose from cache /home/vagrant/.npm/cookie-signature/1.0.1/package/package.json
+verbose chmod /home/vagrant/.npm/cookie-signature/1.0.1/package.tgz 644
+verbose chown [ '/home/vagrant/.npm/cookie-signature/1.0.1/package.tgz',
+verbose chown   1000,
+verbose chown   1000 ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/debug/2.1.1/___package.npm'
+verbose mkdir done: /home/vagrant/.npm/debug/2.1.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/.npm/debug/2.1.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/vagrant/.npm/send/0.1.4/___package.npm/package
+silly asyncMap in gTP /home/vagrant/.npm/send/0.1.4/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/vagrant/.npm/send/0.1.4/___package.npm/package/History.md
+silly asyncMap in gTP /home/vagrant/.npm/send/0.1.4/___package.npm/package/index.js
+silly asyncMap in gTP /home/vagrant/.npm/send/0.1.4/___package.npm/package/Makefile
+silly asyncMap in gTP /home/vagrant/.npm/send/0.1.4/___package.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/.npm/send/0.1.4/___package.npm/package/Readme.md
+silly asyncMap in gTP /home/vagrant/.npm/send/0.1.4/___package.npm/package/lib
+silly asyncMap in gTP /home/vagrant/.npm/send/0.1.4/___package.npm/package/lib/send.js
+silly asyncMap in gTP /home/vagrant/.npm/send/0.1.4/___package.npm/package/lib/utils.js
+verbose gunzed /home/vagrant/.npm/send/0.1.4/___package.npm/package
+verbose rm'ed /home/vagrant/.npm/send/0.1.4/package
+verbose renamed [ '/home/vagrant/.npm/send/0.1.4/___package.npm/package',
+verbose renamed   '/home/vagrant/.npm/send/0.1.4/package' ]
+verbose caching /home/vagrant/.npm/send/0.1.4/package/package.json
+verbose loadDefaults send@0.1.4
+silly updated sha bytes 5868
+info shasum e8b64c7e2d8359117e23a6fe029c6a729c139254
+info shasum /home/vagrant/.npm/send/0.1.4/package.tgz
+verbose from cache /home/vagrant/.npm/send/0.1.4/package/package.json
+verbose chmod /home/vagrant/.npm/send/0.1.4/package.tgz 644
+verbose chown [ '/home/vagrant/.npm/send/0.1.4/package.tgz', 1000, 1000 ]
+silly afterUntar ok
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/Readme.md
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/LICENSE
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/.travis.yml
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/cache.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/connect.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/index.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/proto.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/patch.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/error.html
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/favicon.ico
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/directory.html
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/style.css
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_cd.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_cplusplus.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_delete.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_acrobat.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_h.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_ruby.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_c.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_text.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_link.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_gear.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_picture.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_error.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_swoosh.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_csharp.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_world.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_copy.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_cup.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_paint.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_visualstudio.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_save.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_copy.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_compressed.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_red.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_green.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_attach.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_link.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_horizontal.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_width.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_go.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_dvd.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_add.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_camera.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_stack.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_excel.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_flash.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_put.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_paintbrush.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_paste.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_lightning.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_go.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_key.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_add.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_paste.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_coldfusion.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_office.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_zip.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_powerpoint.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_database.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_excel.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_medal.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_world.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_paintbrush.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_magnify.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_edit.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_text_width.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_gear.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_lightning.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_find.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_code.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_wrench.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_tux.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_refresh.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_code.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_freehand.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_delete.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_actionscript.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_find.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_star.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_key.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_error.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_php.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_word.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_get.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_edit.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_word.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_code_red.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/public/icons/page_white_vector.png
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/cookieSession.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/staticCache.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/vhost.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/directory.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/json.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/limit.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/favicon.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/urlencoded.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/responseTime.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/timeout.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/session.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/csrf.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/compress.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/basicAuth.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/cookieParser.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/bodyParser.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/logger.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/errorHandler.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/methodOverride.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/multipart.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/static.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/query.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/session
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/session/memory.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/session/store.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/session/cookie.js
+silly asyncMap in gTP /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package/lib/middleware/session/session.js
+silly chmod package 755
+silly chmod lib 755
+silly chmod public 755
+silly chmod icons 755
+silly chmod middleware 755
+silly chmod session 755
+verbose gunzed /tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package
+verbose rm'ed /tmp/npm-1419961315147/1419961316889-0.05213303514756262/package
+verbose renamed [ '/tmp/npm-1419961315147/1419961316889-0.05213303514756262/___package.npm/package',
+verbose renamed   '/tmp/npm-1419961315147/1419961316889-0.05213303514756262/package' ]
+verbose caching /tmp/npm-1419961315147/1419961316889-0.05213303514756262/package/package.json
+verbose loadDefaults connect@2.11.0
+verbose tarball contents [ 'tmp.tgz', 'package' ]
+verbose from cache /tmp/npm-1419961315147/1419961316889-0.05213303514756262/package/package.json
+verbose pack /tmp/npm-1419961315147/1419961316889-0.05213303514756262/package
+verbose pack /tmp/npm-1419961315147/1419961316889-0.05213303514756262/package /home/vagrant/.npm/connect/2.11.0/package.tgz
+silly makeList /tmp/npm-1419961315147/1419961316889-0.05213303514756262/package
+silly dir, dirLen [ '/tmp/npm-1419961315147/1419961316889-0.05213303514756262/package',
+silly dir, dirLen   65 ]
+verbose tarball /home/vagrant/.npm/connect/2.11.0/package.tgz
+verbose parent /tmp/npm-1419961315147/1419961316889-0.05213303514756262/package
+silly afterUntar ok
+silly asyncMap in gTP /home/vagrant/.npm/debug/2.1.1/___package.npm/package
+silly asyncMap in gTP /home/vagrant/.npm/debug/2.1.1/___package.npm/package/.jshintrc
+silly asyncMap in gTP /home/vagrant/.npm/debug/2.1.1/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/vagrant/.npm/debug/2.1.1/___package.npm/package/bower.json
+silly asyncMap in gTP /home/vagrant/.npm/debug/2.1.1/___package.npm/package/browser.js
+silly asyncMap in gTP /home/vagrant/.npm/debug/2.1.1/___package.npm/package/component.json
+silly asyncMap in gTP /home/vagrant/.npm/debug/2.1.1/___package.npm/package/debug.js
+silly asyncMap in gTP /home/vagrant/.npm/debug/2.1.1/___package.npm/package/History.md
+silly asyncMap in gTP /home/vagrant/.npm/debug/2.1.1/___package.npm/package/Makefile
+silly asyncMap in gTP /home/vagrant/.npm/debug/2.1.1/___package.npm/package/node.js
+silly asyncMap in gTP /home/vagrant/.npm/debug/2.1.1/___package.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/.npm/debug/2.1.1/___package.npm/package/Readme.md
+verbose gunzed /home/vagrant/.npm/debug/2.1.1/___package.npm/package
+verbose rm'ed /home/vagrant/.npm/debug/2.1.1/package
+verbose renamed [ '/home/vagrant/.npm/debug/2.1.1/___package.npm/package',
+verbose renamed   '/home/vagrant/.npm/debug/2.1.1/package' ]
+verbose caching /home/vagrant/.npm/debug/2.1.1/package/package.json
+verbose loadDefaults debug@2.1.1
+silly updated sha bytes 9762
+info shasum 6bdc39047e82a80c065d7dda168c2a0861f9f8a2
+info shasum /home/vagrant/.npm/debug/2.1.1/package.tgz
+verbose from cache /home/vagrant/.npm/debug/2.1.1/package/package.json
+verbose chmod /home/vagrant/.npm/debug/2.1.1/package.tgz 644
+verbose chown [ '/home/vagrant/.npm/debug/2.1.1/package.tgz', 1000, 1000 ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/connect/2.11.0/___package.npm'
+verbose mkdir done: /home/vagrant/.npm/connect/2.11.0/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/.npm/connect/2.11.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/.travis.yml
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/index.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/LICENSE
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/cache.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/connect.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/index.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/patch.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/proto.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/utils.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/basicAuth.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/bodyParser.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/compress.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/cookieParser.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/cookieSession.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/csrf.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/directory.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/errorHandler.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/favicon.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/json.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/limit.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/logger.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/methodOverride.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/multipart.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/query.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/responseTime.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/session.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/static.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/staticCache.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/timeout.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/urlencoded.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/vhost.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/session
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/session/memory.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/session/cookie.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/session/session.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/middleware/session/store.js
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/directory.html
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/error.html
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/favicon.ico
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/style.css
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_add.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_attach.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_code.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_copy.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_delete.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_edit.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_error.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_excel.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_find.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_gear.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_go.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_green.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_key.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_lightning.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_link.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_paintbrush.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_paste.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_red.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_refresh.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_save.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_acrobat.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_actionscript.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_add.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_c.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_camera.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_cd.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_code.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_code_red.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_coldfusion.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_compressed.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_copy.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_cplusplus.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_csharp.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_cup.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_database.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_delete.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_dvd.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_edit.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_error.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_excel.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_find.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_flash.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_freehand.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_gear.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_get.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_go.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_h.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_horizontal.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_key.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_lightning.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_link.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_magnify.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_medal.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_office.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_paint.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_picture.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_paintbrush.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_paste.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_php.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_put.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_ruby.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_stack.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_star.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_powerpoint.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_swoosh.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_text.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_text_width.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_vector.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_visualstudio.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_width.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_tux.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_word.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_world.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_wrench.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_white_zip.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_word.png
+silly asyncMap in gTP /home/vagrant/.npm/connect/2.11.0/___package.npm/package/lib/public/icons/page_world.png
+verbose gunzed /home/vagrant/.npm/connect/2.11.0/___package.npm/package
+verbose rm'ed /home/vagrant/.npm/connect/2.11.0/package
+verbose renamed [ '/home/vagrant/.npm/connect/2.11.0/___package.npm/package',
+verbose renamed   '/home/vagrant/.npm/connect/2.11.0/package' ]
+verbose caching /home/vagrant/.npm/connect/2.11.0/package/package.json
+verbose loadDefaults connect@2.11.0
+silly updated sha bytes 40960
+silly updated sha bytes 37944
+info shasum 2eddb34e58e434ffc436e758012d8c541dce62bd
+info shasum /home/vagrant/.npm/connect/2.11.0/package.tgz
+verbose from cache /home/vagrant/.npm/connect/2.11.0/package/package.json
+verbose chmod /home/vagrant/.npm/connect/2.11.0/package.tgz 644
+verbose chown [ '/home/vagrant/.npm/connect/2.11.0/package.tgz', 1000, 1000 ]
+silly resolved [ { name: 'commander',
+silly resolved     version: '1.3.2',
+silly resolved     description: 'the complete solution for node.js command-line programs',
+silly resolved     keywords: [ 'command', 'option', 'parser', 'prompt', 'stdin' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/visionmedia/commander.js.git' },
+silly resolved     dependencies: { keypress: '0.1.x' },
+silly resolved     devDependencies: { should: '>= 0.0.1' },
+silly resolved     scripts: { test: 'make test' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.6.x' },
+silly resolved     _id: 'commander@1.3.2',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '8d89cfe6b4fe34875a753bafbd853e75260f353f' },
+silly resolved     _from: 'commander@1.3.2' },
+silly resolved   { name: 'range-parser',
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     description: 'Range header field string parser',
+silly resolved     version: '0.0.4',
+silly resolved     main: 'index.js',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { mocha: '*', should: '*' },
+silly resolved     _id: 'range-parser@0.0.4',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '8204ad26d7f6ee7cbf26189ae9fe0e726c37970c' },
+silly resolved     _from: 'range-parser@0.0.4' },
+silly resolved   { author: 
+silly resolved      { name: 'Brian J. Brennan',
+silly resolved        email: 'brianloveswords@gmail.com',
+silly resolved        url: 'http://bjb.io' },
+silly resolved     name: 'buffer-crc32',
+silly resolved     description: 'A pure javascript CRC32 algorithm that plays nice with binary data',
+silly resolved     version: '0.2.1',
+silly resolved     contributors: [ { name: 'Vladimir Kuznetsov' } ],
+silly resolved     homepage: 'https://github.com/brianloveswords/buffer-crc32',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/brianloveswords/buffer-crc32.git' },
+silly resolved     main: 'index.js',
+silly resolved     scripts: { test: './node_modules/.bin/tap tests/*.test.js' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { tap: '~0.2.5' },
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'buffer-crc32@0.2.1',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'f5b20c97f2dc31e0219a2348a01b3dbbe50e5905' },
+silly resolved     _from: 'buffer-crc32@0.2.1' },
+silly resolved   { author: { name: 'Roman Shtylman', email: 'shtylman@gmail.com' },
+silly resolved     name: 'cookie',
+silly resolved     description: 'cookie parsing and serialization',
+silly resolved     version: '0.1.0',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/shtylman/node-cookie.git' },
+silly resolved     keywords: [ 'cookie', 'cookies' ],
+silly resolved     main: 'index.js',
+silly resolved     scripts: { test: 'mocha' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { mocha: '1.x.x' },
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'cookie@0.1.0',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '0dbf1f3505f4c1456cdb19bc4d203e64b3a5939b' },
+silly resolved     _from: 'cookie@0.1.0' },
+silly resolved   { name: 'methods',
+silly resolved     version: '0.1.0',
+silly resolved     description: 'HTTP methods that node supports',
+silly resolved     main: 'index.js',
+silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+silly resolved     keywords: [ 'http', 'methods' ],
+silly resolved     author: { name: 'TJ Holowaychuk' },
+silly resolved     license: 'MIT',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/visionmedia/node-methods.git' },
+silly resolved     _id: 'methods@0.1.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '6c4d9b81aba642cbe3e65e7dd41d53f8af231fcf' },
+silly resolved     _from: 'methods@0.1.0' },
+silly resolved   { name: 'fresh',
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     description: 'HTTP response freshness testing',
+silly resolved     version: '0.2.0',
+silly resolved     main: 'index.js',
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/visionmedia/node-fresh.git' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { mocha: '*', should: '*' },
+silly resolved     _id: 'fresh@0.2.0',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '283265bbfc58bb2aff53b6f82d8c253d2a980aa7' },
+silly resolved     _from: 'fresh@0.2.0' },
+silly resolved   { name: 'mkdirp',
+silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+silly resolved     version: '0.3.5',
+silly resolved     author: 
+silly resolved      { name: 'James Halliday',
+silly resolved        email: 'mail@substack.net',
+silly resolved        url: 'http://substack.net' },
+silly resolved     main: './index',
+silly resolved     keywords: [ 'mkdir', 'directory' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/substack/node-mkdirp.git' },
+silly resolved     scripts: { test: 'tap test/*.js' },
+silly resolved     devDependencies: { tap: '~0.4.0' },
+silly resolved     license: 'MIT',
+silly resolved     _id: 'mkdirp@0.3.5',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '653f13e53275b3c58889e79075b937ebb8fc058f' },
+silly resolved     _from: 'mkdirp@0.3.5' },
+silly resolved   { name: 'cookie-signature',
+silly resolved     version: '1.0.1',
+silly resolved     description: 'Sign and unsign cookies',
+silly resolved     keywords: [ 'cookie', 'sign', 'unsign' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+silly resolved     dependencies: {},
+silly resolved     devDependencies: { mocha: '*', should: '*' },
+silly resolved     main: 'index',
+silly resolved     _id: 'cookie-signature@1.0.1',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'f459eed0abd0793e99667eb8506e9bf5cf66bbfd' },
+silly resolved     _from: 'cookie-signature@1.0.1' },
+silly resolved   { name: 'send',
+silly resolved     version: '0.1.4',
+silly resolved     description: 'Better streaming static file server with Range and conditional-GET support',
+silly resolved     keywords: [ 'static', 'file', 'server' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     dependencies: 
+silly resolved      { debug: '*',
+silly resolved        mime: '~1.2.9',
+silly resolved        fresh: '0.2.0',
+silly resolved        'range-parser': '0.0.4' },
+silly resolved     devDependencies: { mocha: '*', should: '*', supertest: '0.0.1', connect: '2.x' },
+silly resolved     scripts: { test: 'make test' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/send.git' },
+silly resolved     main: 'index',
+silly resolved     _id: 'send@0.1.4',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'e8b64c7e2d8359117e23a6fe029c6a729c139254' },
+silly resolved     _from: 'send@0.1.4' },
+silly resolved   { name: 'debug',
+silly resolved     version: '2.1.1',
+silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+silly resolved     description: 'small debugging utility',
+silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Nathan Rajlich',
+silly resolved          email: 'nathan@tootallnate.net',
+silly resolved          url: 'http://n8.io' } ],
+silly resolved     license: 'MIT',
+silly resolved     dependencies: { ms: '0.6.2' },
+silly resolved     devDependencies: { browserify: '6.1.0', mocha: '*' },
+silly resolved     main: './node.js',
+silly resolved     browser: './browser.js',
+silly resolved     component: { scripts: { 'debug/index.js': 'browser.js', 'debug/debug.js': 'debug.js' } },
+silly resolved     _id: 'debug@2.1.1',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '6bdc39047e82a80c065d7dda168c2a0861f9f8a2' },
+silly resolved     _from: 'debug@*' },
+silly resolved   { name: 'connect',
+silly resolved     version: '2.11.0',
+silly resolved     description: 'High performance middleware framework',
+silly resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     dependencies: 
+silly resolved      { qs: '0.6.5',
+silly resolved        'cookie-signature': '1.0.1',
+silly resolved        'buffer-crc32': '0.2.1',
+silly resolved        cookie: '0.1.0',
+silly resolved        send: '0.1.4',
+silly resolved        bytes: '0.2.1',
+silly resolved        fresh: '0.2.0',
+silly resolved        pause: '0.0.1',
+silly resolved        uid2: '0.0.3',
+silly resolved        debug: '*',
+silly resolved        methods: '0.0.1',
+silly resolved        'raw-body': '0.0.3',
+silly resolved        negotiator: '0.3.0',
+silly resolved        multiparty: '2.2.0' },
+silly resolved     devDependencies: { should: '>= 2.0.0', mocha: '*', jade: '*', dox: '*' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'https://raw.github.com/senchalabs/connect/master/LICENSE' } ],
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.8.0' },
+silly resolved     scripts: { test: 'make' },
+silly resolved     _id: 'connect@2.11.0',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '2eddb34e58e434ffc436e758012d8c541dce62bd' },
+silly resolved     _from: 'connect@2.11.0' } ]
+info into /home/vagrant/meadowlark/site/node_modules/express commander@1.3.2
+info into /home/vagrant/meadowlark/site/node_modules/express range-parser@0.0.4
+info into /home/vagrant/meadowlark/site/node_modules/express buffer-crc32@0.2.1
+info into /home/vagrant/meadowlark/site/node_modules/express cookie@0.1.0
+info into /home/vagrant/meadowlark/site/node_modules/express methods@0.1.0
+info into /home/vagrant/meadowlark/site/node_modules/express fresh@0.2.0
+info into /home/vagrant/meadowlark/site/node_modules/express mkdirp@0.3.5
+info into /home/vagrant/meadowlark/site/node_modules/express cookie-signature@1.0.1
+info into /home/vagrant/meadowlark/site/node_modules/express send@0.1.4
+info into /home/vagrant/meadowlark/site/node_modules/express debug@2.1.1
+info into /home/vagrant/meadowlark/site/node_modules/express connect@2.11.0
+info installOne commander@1.3.2
+info installOne range-parser@0.0.4
+info installOne buffer-crc32@0.2.1
+info installOne cookie@0.1.0
+info installOne methods@0.1.0
+info installOne fresh@0.2.0
+info installOne mkdirp@0.3.5
+info installOne cookie-signature@1.0.1
+info installOne send@0.1.4
+info installOne debug@2.1.1
+info installOne connect@2.11.0
+verbose installOne cb connect@2.11.0
+verbose about to build /home/vagrant/meadowlark/site/node_modules/express
+ERR! error installing express@3.4.4
+info unbuild /home/vagrant/meadowlark/site/node_modules/express
+verbose from cache /home/vagrant/meadowlark/site/node_modules/express/package.json
+info preuninstall express@3.4.4
+verbose from cache /home/vagrant/.npm/commander/1.3.2/package/package.json
+info unbuild /home/vagrant/meadowlark/site/node_modules/express/node_modules/commander
+verbose from cache /home/vagrant/.npm/buffer-crc32/0.2.1/package/package.json
+info unbuild /home/vagrant/meadowlark/site/node_modules/express/node_modules/buffer-crc32
+verbose from cache /home/vagrant/.npm/range-parser/0.0.4/package/package.json
+info unbuild /home/vagrant/meadowlark/site/node_modules/express/node_modules/range-parser
+verbose from cache /home/vagrant/.npm/methods/0.1.0/package/package.json
+info unbuild /home/vagrant/meadowlark/site/node_modules/express/node_modules/methods
+verbose from cache /home/vagrant/.npm/fresh/0.2.0/package/package.json
+info unbuild /home/vagrant/meadowlark/site/node_modules/express/node_modules/fresh
+verbose from cache /home/vagrant/.npm/cookie/0.1.0/package/package.json
+info unbuild /home/vagrant/meadowlark/site/node_modules/express/node_modules/cookie
+verbose from cache /home/vagrant/.npm/cookie-signature/1.0.1/package/package.json
+info unbuild /home/vagrant/meadowlark/site/node_modules/express/node_modules/cookie-signature
+verbose from cache /home/vagrant/.npm/mkdirp/0.3.5/package/package.json
+info unbuild /home/vagrant/meadowlark/site/node_modules/express/node_modules/mkdirp
+verbose from cache /home/vagrant/.npm/debug/2.1.1/package/package.json
+info unbuild /home/vagrant/meadowlark/site/node_modules/express/node_modules/debug
+verbose from cache /home/vagrant/.npm/send/0.1.4/package/package.json
+info unbuild /home/vagrant/meadowlark/site/node_modules/express/node_modules/send
+info uninstall express@3.4.4
+verbose unbuild express@3.4.4 [ true,
+verbose unbuild express@3.4.4   '/home/vagrant/meadowlark/site/node_modules',
+verbose unbuild express@3.4.4   '/home/vagrant/meadowlark/site/node_modules' ]
+verbose binRoot [ '/home/vagrant/meadowlark/site/node_modules/.bin',
+verbose binRoot   { express: './bin/express' } ]
+info postuninstall express@3.4.4
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules/___buffer-crc32.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules/___cookie-signature.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules/___send.npm'
+verbose mkdir done: /home/vagrant/meadowlark/site/node_modules/express/node_modules/___buffer-crc32.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules/___methods.npm'
+verbose mkdir done: /home/vagrant/meadowlark/site/node_modules/express/node_modules/___cookie-signature.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules/___cookie.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules/___commander.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules/___fresh.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules/___range-parser.npm'
+verbose mkdir done: /home/vagrant/meadowlark/site/node_modules/express/node_modules/___send.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules/___debug.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/meadowlark/site/node_modules/express/node_modules/___mkdirp.npm'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/meadowlark/site/node_modules/express/node_modules/buffer-crc32
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: /home/vagrant/meadowlark/site/node_modules/express/node_modules/___methods.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/meadowlark/site/node_modules/express/node_modules/cookie-signature
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: /home/vagrant/meadowlark/site/node_modules/express/node_modules/___cookie.npm 755
+verbose mkdir done: /home/vagrant/meadowlark/site/node_modules/express/node_modules/___commander.npm 755
+verbose mkdir done: /home/vagrant/meadowlark/site/node_modules/express/node_modules/___fresh.npm 755
+verbose mkdir done: /home/vagrant/meadowlark/site/node_modules/express/node_modules/___range-parser.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/meadowlark/site/node_modules/express/node_modules/send
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: /home/vagrant/meadowlark/site/node_modules/express/node_modules/___debug.npm 755
+verbose mkdir done: /home/vagrant/meadowlark/site/node_modules/express/node_modules/___mkdirp.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/meadowlark/site/node_modules/express/node_modules/methods
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/meadowlark/site/node_modules/express/node_modules/commander
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/meadowlark/site/node_modules/express/node_modules/cookie
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/meadowlark/site/node_modules/express/node_modules/fresh
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/meadowlark/site/node_modules/express/node_modules/range-parser
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/meadowlark/site/node_modules/express/node_modules/debug
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/meadowlark/site/node_modules/express/node_modules/mkdirp
+silly gunzTarPerm modes [ '755', '644' ]
+ERR! error rolling back express@3.4.4 Error: UNKNOWN, unknown error '/home/vagrant/meadowlark/site/node_modules/express'
+verbose installOne cb express@3.4.4
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: connect@2.11.0
+ERR! Required: {"node":">= 0.8.0"}
+ERR! Actual:   {"npm":"1.1.4","node":"0.6.12"}
+ERR! 
+ERR! System Linux 3.2.0-23-generic-pae
+ERR! command "node" "/usr/bin/npm" "install" "--save" "express"
+ERR! cwd /home/vagrant/meadowlark/site
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! code ENOTSUP
+ERR! message Unsupported
+ERR! errno {}
+verbose exit [ 1, true ]
